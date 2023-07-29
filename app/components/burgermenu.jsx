@@ -1,16 +1,17 @@
-"use client";
 import React from "react";
-import { useState } from "react";
-import Sidebar from "./sidebar";
 
-const Burgermenu = () => {
-  const [isOpen, setIsOpen] = useState(false);
-  function changeIsOpen() {
-    setIsOpen(!isOpen);
-  }
+const Burgermenu = (props) => {
+  const { isOpen, status } = props;
   return (
     <>
-      <div className="h-8 w-11 relative" onClick={() => setIsOpen(!isOpen)}>
+      <div
+        className={`transition-all duration-300 ${
+          isOpen
+            ? "visible absolute top-0 bottom-0 left-0 right-0 bg-black opacity-30"
+            : " invisible"
+        }`}
+      ></div>
+      <div className="h-8 w-11 relative" onClick={() => status()}>
         <span
           className={`top-0 left-0 h-[3px] w-9 bg-white rounded-full  inline-block absolute transition ease transform duration-300 ${
             isOpen
@@ -29,12 +30,6 @@ const Burgermenu = () => {
           }`}
         ></span>
       </div>
-      <div
-        className={`${
-          isOpen ? "absolute top-0 bottom-0 left-0 right-0 bg-white" : ""
-        }`}
-      ></div>
-      <Sidebar isOpen={isOpen} status={changeIsOpen} />
     </>
   );
 };
