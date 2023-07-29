@@ -10,6 +10,7 @@ const Burgermenu = (props) => {
             ? "visible absolute top-0 bottom-0 left-0 right-0 bg-black opacity-30"
             : " invisible"
         }`}
+        onClick={() => status()}
       ></div>
       <div className="h-8 w-11 relative" onClick={() => status()}>
         <span
