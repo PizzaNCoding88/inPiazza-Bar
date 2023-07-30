@@ -2,6 +2,14 @@
 @tailwind components;
 @tailwind utilities;
 
+.rounded-btn {
+  @apply rounded-tr-[0.2rem] rounded-bl-[0.2rem] rounded-tl-2xl rounded-br-2xl;
+}
+
+.btn-1 {
+  @apply text-xl cursor-pointer font-americana;
+}
+
 *,
 *::before,
 *::after {
