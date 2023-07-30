@@ -1,6 +1,5 @@
 import React from "react";
-import Navbar from "../header/Navbar";
-import Link from "next/link";
+import Button from "../button/Button";
 
 const Hero = () => {
   return (
@@ -15,13 +14,9 @@ const Hero = () => {
             Aperichic Bar
           </p>
         </div>
-        <div className="absolute top-3/4 left-1/2 -translate-x-1/2 -translate-y-1/2  flex flex-col w-4/5 gap-10">
-          <button className="bg-secondary w-3/5 py-3 rounded-btn mx-auto btn-1">
-            <Link href="/">Menu</Link>
-          </button>
-          <button className="w-3/5 py-3 rounded-btn mx-auto text-xl cursor-pointer font-americana border-primary border-2 ">
-            <Link href="/">Contattaci</Link>
-          </button>
+        <div className="absolute top-3/4 left-1/2 -translate-x-1/2 -translate-y-1/2 flex flex-col w-4/5 gap-10 px-12">
+          <Button text="Menu" link="/" style="primary" />
+          <Button text="Contattaci" link="/" style="secondary" />
         </div>
       </section>
     </>

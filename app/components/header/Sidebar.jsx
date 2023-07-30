@@ -1,6 +1,7 @@
 import React from "react";
 import { motion, AnimatePresence } from "framer-motion";
 import Link from "next/link";
+import Button from "../button/Button";
 
 const Sidebar = (props) => {
   const { isOpen, status } = props;
@@ -26,6 +27,9 @@ const Sidebar = (props) => {
       href: "/",
     },
   ];
+
+  const liArr = Object.values(listItems);
+  const liArrLenght = liArr.length;
 
   return (
     <>
@@ -58,16 +62,20 @@ const Sidebar = (props) => {
               {listItems.map((item) => {
                 return (
                   <li key={item.id}>
-                    <Link
-                      href={item.href}
-                      className={
-                        item.name == "Prenotazioni"
-                          ? " bg-secondary px-6 py-3 rounded-tr-[0.2rem] rounded-bl-[0.2rem] rounded-tl-2xl rounded-br-2xl"
-                          : "null"
-                      }
-                    >
-                      {item.name}
-                    </Link>
+                    {item.id === liArrLenght - 1 ? (
+                      <Button text="Prenotazioni" link="/" style="sidebar" />
+                    ) : (
+                      <Link
+                        href={item.href}
+                        className={
+                          item.name == "Prenotazioni"
+                            ? " bg-secondary px-6 py-3 rounded-tr-[0.2rem] rounded-bl-[0.2rem] rounded-tl-2xl rounded-br-2xl"
+                            : "null"
+                        }
+                      >
+                        {item.name}
+                      </Link>
+                    )}
                   </li>
                 );
               })}

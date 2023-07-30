@@ -1,0 +1,15 @@
+.btn {
+  @apply w-full py-3 mx-auto text-xl cursor-pointer font-americana rounded-tr-[0.2rem] rounded-bl-[0.2rem] rounded-tl-2xl rounded-br-2xl;
+
+  &_primary {
+    @apply bg-secondary;
+  }
+
+  &_secondary {
+    @apply border-primary border-2;
+  }
+
+  &_sidebar {
+    @apply bg-secondary px-6 py-3 w-full;
+  }
+}
