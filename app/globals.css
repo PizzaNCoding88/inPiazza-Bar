@@ -19,7 +19,7 @@ html {
   /* text-size-adjust: none; for other mobile browsers */
   scroll-behavior: smooth;
   overflow-x: hidden;
-  height: 100%;
+  min-height: 100%;
 }
 
 body {
