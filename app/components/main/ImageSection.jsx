@@ -1,7 +1,13 @@
 import React from "react";
+import Card from "./Card";
 
 const ImageSection = () => {
-  return <div className="h-[100dvh]">ImageSection</div>;
+  return (
+    <section className="images-section">
+      <h1 className="images-section_h1">Infiniti momenti di puro piacere</h1>
+      <Card />
+    </section>
+  );
 };
 
 export default ImageSection;
