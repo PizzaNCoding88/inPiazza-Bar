@@ -29,7 +29,7 @@ module.exports = {
       },
       backgroundPosition: {
         semiCenter: "40% 60%",
-        semiCenter1: "60% 100%",
+        semiCenter1: "60% 90%",
       },
       dropShadow: {
         heroShadow: "-4px 4px rgba(0, 0, 0, 0.15)",
