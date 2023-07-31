@@ -7,7 +7,7 @@
 }
 
 .section {
-  @apply h-[100vh];
+  @apply h-[100vh] bg-hero1 bg-cover bg-semiCenter1;
 
   &_fadedbg {
     @apply h-[100vh] w-full absolute bg-slate-900 bg-opacity-50 z-0;
