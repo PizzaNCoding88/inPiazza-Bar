@@ -25,7 +25,7 @@ module.exports = {
         hero1: "url('../../../public/assets/hero1.jpg')",
       },
       backgroundSize: {
-        300: "300%",
+        300: "400%",
       },
       backgroundPosition: {
         semiCenter: "40% 60%",
