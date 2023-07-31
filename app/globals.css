@@ -19,10 +19,11 @@ html {
   /* text-size-adjust: none; for other mobile browsers */
   scroll-behavior: smooth;
   overflow-x: hidden;
+  height: 100%;
 }
 
 body {
-  min-height: 100vh;
+  height: 100%;
   overflow: hidden;
 }
 
