@@ -21,7 +21,7 @@ const Burgermenu = (props) => {
           }`}
         ></span>
         <span
-          className={`h-[4px] w-9 bg-form rounded-full inline-block absolute mt-3 transition ease transform duration-300 ${
+          className={`h-[4px] w-9 bg-form rounded-full inline-block absolute mt-3 transition ease transform duration-300 translate-x-2 ${
             isOpen ? " scale-150 opacity-0" : ""
           }`}
         ></span>
