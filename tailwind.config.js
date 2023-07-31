@@ -25,11 +25,11 @@ module.exports = {
         hero1: "url('../../../public/assets/hero1.jpg')",
       },
       backgroundSize: {
-        "240%": "400%",
+        300: "300%",
       },
       backgroundPosition: {
         semiCenter: "40% 60%",
-        semiCenter1: "75% 150%",
+        semiCenter1: "60%",
       },
       dropShadow: {
         heroShadow: "-4px 4px rgba(0, 0, 0, 0.15)",

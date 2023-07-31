@@ -13,18 +13,17 @@
   padding: 0;
   font: inherit;
 }
-
-body {
-  min-height: 100vh;
-  overflow: hidden;
-}
-
 html {
   color-scheme: dark light;
   -webkit-text-size-adjust: none; /* for iOS Safari */
   /* text-size-adjust: none; for other mobile browsers */
   scroll-behavior: smooth;
   overflow-x: hidden;
+}
+
+body {
+  min-height: 100dvh;
+  overflow: hidden;
 }
 
 img,
