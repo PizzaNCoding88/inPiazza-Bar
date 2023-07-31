@@ -1,5 +1,7 @@
 import React from "react";
 import Button from "../button/Button";
+import downIcon from "../../../public/assets/icons/down-icon.png";
+import Image from "next/image";
 
 const Hero = () => {
   return (
@@ -17,6 +19,13 @@ const Hero = () => {
         <div className="absolute top-3/4 left-1/2 -translate-x-1/2 -translate-y-1/2 flex flex-col w-4/5 gap-10 px-12">
           <Button text="Menu" link="/" style="primary" />
           <Button text="Contattaci" link="/" style="secondary" />
+        </div>
+        <div className="absolute bottom-3 left-1/2 -translate-x-1/2">
+          <Image
+            src={downIcon}
+            alt="double down arrow icon"
+            className="h-6 w-6 animate-bounce"
+          />
         </div>
       </section>
     </>

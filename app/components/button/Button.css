@@ -10,6 +10,6 @@
   }
 
   &_sidebar {
-    @apply bg-secondary px-6 py-3 w-full;
+    @apply bg-secondary px-6 py-3 font-antic;
   }
 }
