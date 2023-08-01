@@ -23,6 +23,7 @@ module.exports = {
       backgroundImage: {
         hero: "url('../public/assets/hero.webp')",
         hero1: "url('../../../public/assets/hero1.jpg')",
+        menuSectionBg: "url('../public/assets/dessert1.webp')",
       },
       backgroundSize: {
         300: "400%",
@@ -33,6 +34,9 @@ module.exports = {
       dropShadow: {
         heroShadow: "-4px 4px rgba(0, 0, 0, 0.15)",
         drop: "0 1.2px 1.2px rgba(0,0,0,0.8)",
+      },
+      boxShadow: {
+        menuBtnBoxShadow: "4px 4px 4px rgb(0,0,0)",
       },
     },
   },

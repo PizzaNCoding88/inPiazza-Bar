@@ -3,10 +3,6 @@ import Button from "../button/Button";
 import downIcon from "../../../public/assets/icons/down-icon.png";
 import Image from "next/image";
 
-// TEST
-
-import bgImage from "../../../public/assets/hero1.jpg";
-
 const Hero = () => {
   return (
     <>

@@ -12,4 +12,13 @@
   &_sidebar {
     @apply bg-secondary px-6 py-3 font-antic;
   }
+
+  &_menu-btn {
+    @apply bg-white bg-opacity-10 text-black border-2 border-black 
+    shadow-menuBtnBoxShadow;
+  }
+  &_menu-btn_selected {
+    @apply bg-white bg-opacity-10 text-black border-[3px] border-white 
+    shadow-menuBtnBoxShadow;
+  }
 }
