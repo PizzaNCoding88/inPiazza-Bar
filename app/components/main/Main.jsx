@@ -3,6 +3,7 @@ import Hero from "./Hero";
 import ImageSection from "./ImageSection";
 import "./Main.css";
 import MenusSection from "./MenusSection";
+import ContactsSection from "./ContactsSection";
 
 const Main = () => {
   return (
@@ -11,6 +12,7 @@ const Main = () => {
         <Hero />
         <ImageSection />
         <MenusSection />
+        <ContactsSection />
       </main>
     </>
   );
