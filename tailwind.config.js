@@ -23,10 +23,11 @@ module.exports = {
       backgroundImage: {
         hero: "url('../public/assets/hero.webp')",
         hero1: "url('../../../public/assets/hero1.jpg')",
-        menuSectionBg: "url('../public/assets/dessert1.webp')",
+        menuSectionBg: "url('../../../public/assets/dessert1.webp')",
       },
       backgroundSize: {
         300: "400%",
+        100: "100%",
       },
       backgroundPosition: {
         semiCenter: "60% 90%",
