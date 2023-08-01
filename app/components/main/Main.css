@@ -23,5 +23,5 @@
 }
 
 .menu-section {
-  @apply bg-menuSectionBg py-16 bg-semiCenter bg-100 bg-cover bg-no-repeat;
+  @apply bg-menuSectionBg py-16 bg-semiCenter bg-cover bg-no-repeat;
 }

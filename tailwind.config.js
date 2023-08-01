@@ -27,7 +27,6 @@ module.exports = {
       },
       backgroundSize: {
         300: "400%",
-        100: "100%",
       },
       backgroundPosition: {
         semiCenter: "60% 90%",
