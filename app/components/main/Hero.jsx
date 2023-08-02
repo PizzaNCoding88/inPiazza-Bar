@@ -2,37 +2,26 @@ import React from "react";
 import Button from "../button/Button";
 import downIcon from "../../../public/assets/icons/down-icon.png";
 import Image from "next/image";
-import bgImage from "../../../public/assets/hero1.jpg";
+import bgImage from "../../../public/assets/hero1.webp";
 
 const Hero = () => {
   return (
     <>
       <section className="section">
         <div className="h-full w-full z-10">
-          <Image
-            alt="test"
-            src={bgImage}
-            className="h-full w-full object-cover opacity-50"
-          />
+          <Image alt="test" src={bgImage} className="section_background" />
         </div>
+        <div className="section_fadedbg"></div>
 
-        {/* old overlay for the background - to be reviewed */}
-        {/* <div className="h-full w-full absolute bg-slate-500 bg-opacity-5 z-0"></div> */}
-        <div className="section_fadedbg z-50"></div>
-
-        <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-full bg-customGrey bg-opacity-60 w-4/5 text-center py-10 z-10 rounded-tr-md rounded-bl-md rounded-tl-[3rem] rounded-br-[3rem]">
-          <h1 className="font-americana uppercase text-5xl drop-shadow-heroShadow text-primary stroke">
-            In piazza
-          </h1>
-          <p className="text-3xl mt-3 font-neon drop-shadow-heroShadow text-primary stroke1 ">
-            Aperichic Bar
-          </p>
+        <div className="section_hero-header">
+          <h1 className="section_hero-header_h1">In piazza</h1>
+          <p className="section_hero-header_p">Aperichic Bar</p>
         </div>
-        <div className="absolute top-3/4 left-1/2 -translate-x-1/2 -translate-y-1/2 flex flex-col w-4/5 gap-10 px-12">
+        <div className="section_hero_cta">
           <Button text="Menu" link="/" style="primary" />
           <Button text="Contattaci" link="/" style="secondary" />
         </div>
-        <div className="absolute bottom-3 left-1/2 -translate-x-1/2">
+        <div className="section_arrows">
           <Image
             src={downIcon}
             alt="double down arrow icon"

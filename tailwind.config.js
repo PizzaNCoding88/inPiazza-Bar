@@ -21,8 +21,6 @@ module.exports = {
         customGrey: "#D9D9D9",
       },
       backgroundImage: {
-        hero: "url('../public/assets/hero.webp')",
-        hero1: "url('../../../public/assets/hero1.jpg')",
         menuSectionBg: "url('../../../public/assets/dessert1.webp')",
       },
       backgroundSize: {
