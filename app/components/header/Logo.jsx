@@ -6,13 +6,13 @@ import Image from "next/image";
 const Logo = () => {
   return (
     <>
-      <div className="h-12 w-12 relative">
+      <div className="header_wrapper_logo">
         <Link href="/" className=" cursor-pointer">
           <Image
             src={logo}
             alt="logo"
             fill="true"
-            className="w-full object-contain rounded-full"
+            className="header_wrapper_logo_image"
           ></Image>
         </Link>
       </div>

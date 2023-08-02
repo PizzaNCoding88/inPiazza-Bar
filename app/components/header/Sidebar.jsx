@@ -35,7 +35,7 @@ const Sidebar = (props) => {
       <AnimatePresence>
         {isOpen && (
           <motion.div
-            className="bg-primary fixed top-0 right-0 bottom-0 w-3/5 flex justify-center items-center z-30"
+            className="header_navbar_sidebar"
             key="10"
             initial={{ x: "100%" }}
             animate={{ x: 0 }}
@@ -44,19 +44,19 @@ const Sidebar = (props) => {
           >
             <div
               className={`${
-                isOpen ? "" : "hidden"
-              } h-6 w-6 absolute top-5 left-5`}
+                isOpen ? "header_navbar_sidebar_close-button" : "hidden"
+              } `}
               onClick={() => status()}
             >
-              <span className="w-full h-1 rotate-45 translate-y-4 bg-white absolute"></span>
-              <span className="w-full h-1 -rotate-45 translate-y-4 bg-white absolute"></span>
+              <span className=" rotate-45 header_navbar_sidebar_close-button_span"></span>
+              <span className="-rotate-45 header_navbar_sidebar_close-button_span"></span>
             </div>
             <motion.ul
               initial={{ opacity: 0 }}
               animate={{ opacity: 1 }}
               exit={{ opacity: 0, x: 100 }}
               transition={{ delay: 0.1 }}
-              className=" font-antic flex flex-col gap-16 text-center text-lg "
+              className="header_navbar_sidebar_ul"
             >
               {listItems.map((item) => {
                 return (
@@ -64,16 +64,7 @@ const Sidebar = (props) => {
                     {item.id === liArrLenght - 1 ? (
                       <Button text="Prenotazioni" link="/" style="sidebar" />
                     ) : (
-                      <Link
-                        href={item.href}
-                        className={
-                          item.name == "Prenotazioni"
-                            ? " bg-secondary px-6 py-3 rounded-tr-[0.2rem] rounded-bl-[0.2rem] rounded-tl-2xl rounded-br-2xl"
-                            : "null"
-                        }
-                      >
-                        {item.name}
-                      </Link>
+                      <Link href={item.href}>{item.name}</Link>
                     )}
                   </li>
                 );

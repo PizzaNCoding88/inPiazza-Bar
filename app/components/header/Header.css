@@ -1,0 +1,43 @@
+.header {
+  @apply fixed pt-8 z-30 w-full;
+
+  &_wrapper {
+    @apply w-4/5 flex justify-between items-center mx-auto;
+
+    &_logo {
+      @apply h-12 w-12 relative;
+
+      &_image {
+        @apply w-full object-contain rounded-full;
+      }
+    }
+  }
+
+  &_navbar_burger-menu {
+    @apply visible fixed top-0 bottom-0 left-0 right-0 bg-black opacity-30;
+
+    &_wrapper {
+      @apply h-8 w-11 relative;
+
+      &_span {
+        @apply h-[4px] w-9 bg-form rounded-full inline-block absolute transition ease-in transform duration-300;
+      }
+    }
+  }
+
+  &_navbar_sidebar {
+    @apply bg-primary fixed top-0 right-0 bottom-0 w-3/5 flex justify-center items-center z-30;
+
+    &_close-button {
+      @apply h-6 w-6 absolute top-5 left-5;
+
+      &_span {
+        @apply w-full h-1 translate-y-4 bg-white absolute;
+      }
+    }
+
+    &_ul {
+      @apply font-antic flex flex-col gap-16 text-center text-lg;
+    }
+  }
+}

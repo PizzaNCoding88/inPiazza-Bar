@@ -5,28 +5,29 @@ const Burgermenu = (props) => {
   return (
     <>
       <div
-        className={`transition-all duration-300  ${
-          isOpen
-            ? "visible fixed top-0 bottom-0 left-0 right-0 bg-black opacity-30"
-            : " invisible"
+        className={`transition-all duration-300 ${
+          isOpen ? "header_navbar_burger-menu" : "invisible"
         }`}
         onClick={() => status()}
       ></div>
-      <div className="h-8 w-11 relative" onClick={() => status()}>
+      <div
+        className="header_navbar_burger-menu_wrapper"
+        onClick={() => status()}
+      >
         <span
-          className={`top-0 left-0 h-[4px] w-9 bg-form rounded-full  inline-block absolute transition ease transform duration-300 ${
+          className={`top-0 left-0 header_navbar_burger-menu_wrapper_span ${
             isOpen
               ? "rotate-45 translate-y-3 opacity-50"
               : "rotate-0 translate-y-0"
           }`}
         ></span>
         <span
-          className={`h-[4px] w-9 bg-form rounded-full inline-block absolute mt-3 transition ease transform duration-300 translate-x-2 ${
+          className={`mt-3 header_navbar_burger-menu_wrapper_span translate-x-2 ${
             isOpen ? " scale-150 opacity-0" : ""
           }`}
         ></span>
         <span
-          className={`h-[4px] w-9 bg-form rounded-full inline-block absolute mt-6 transition ease transform duration-300 ${
+          className={`mt-6 header_navbar_burger-menu_wrapper_span ${
             isOpen ? "-rotate-45 -translate-y-3 opacity-50 " : "opacity-100"
           }`}
         ></span>
