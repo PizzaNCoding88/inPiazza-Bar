@@ -2,21 +2,19 @@ import React from "react";
 import Button from "../button/Button";
 import downIcon from "../../../public/assets/icons/down-icon.png";
 import Image from "next/image";
+import bgImage from "../../../public/assets/hero1.jpg";
 
 const Hero = () => {
   return (
     <>
-      {/* old bg image to be reviewed */}
-
-      {/* <section className="h-[100dvh] bg-hero bg-240% bg-no-repeat bg-semiCenter mix-blend-normal -z-10"> */}
       <section className="section">
-        {/* <div className="h-full w-full z-10">
+        <div className="h-full w-full z-10">
           <Image
             alt="test"
             src={bgImage}
             className="h-full w-full object-cover opacity-50"
           />
-        </div> */}
+        </div>
 
         {/* old overlay for the background - to be reviewed */}
         {/* <div className="h-full w-full absolute bg-slate-500 bg-opacity-5 z-0"></div> */}
