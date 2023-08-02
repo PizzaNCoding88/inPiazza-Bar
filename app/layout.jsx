@@ -1,6 +1,8 @@
 import "./globals.css";
 import { Antic_Slab, Ms_Madi, Neonderthaw } from "next/font/google";
 import localFont from "next/font/local";
+import Header from "./components/header/Header";
+import Footer from "./components/footer/Footer";
 
 const antic = Antic_Slab({
   weight: "400",
@@ -36,7 +38,9 @@ export default function RootLayout({ children }) {
       <body
         className={`${antic.variable} ${madi.variable} ${neon.variable} ${americana.variable}`}
       >
+        <Header />
         {children}
+        <Footer />
       </body>
     </html>
   );

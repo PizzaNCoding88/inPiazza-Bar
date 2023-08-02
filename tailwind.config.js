@@ -23,6 +23,7 @@ module.exports = {
       backgroundImage: {
         menuSectionBg: "url('../../../public/assets/dessert1.webp')",
         contactsSectionBg: "url('../public/assets/interno.webp')",
+        footerBg: "url('../public/assets/footerbg.webp')",
       },
       backgroundSize: {
         300: "400%",
@@ -36,6 +37,9 @@ module.exports = {
       },
       boxShadow: {
         menuBtnBoxShadow: "4px 4px 4px rgb(0,0,0)",
+      },
+      gridTemplateRows: {
+        custom: "1fr,1fr,2fr",
       },
     },
   },
