@@ -28,8 +28,7 @@ const Sidebar = (props) => {
     },
   ];
 
-  const liArr = Object.values(listItems);
-  const liArrLenght = liArr.length;
+  const liArrLenght = Object.values(listItems).length;
 
   return (
     <>
