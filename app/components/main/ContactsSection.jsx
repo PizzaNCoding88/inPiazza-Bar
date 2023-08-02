@@ -4,7 +4,7 @@ import Map from "./Map";
 
 const ContactsSection = () => {
   return (
-    <section className="py-8">
+    <section className="py-8 bg-contactsSectionBg bg-cover bg-right">
       <ContactForm />
       <Map />
     </section>

@@ -22,6 +22,7 @@ module.exports = {
       },
       backgroundImage: {
         menuSectionBg: "url('../../../public/assets/dessert1.webp')",
+        contactsSectionBg: "url('../public/assets/interno.webp')",
       },
       backgroundSize: {
         300: "400%",
