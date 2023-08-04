@@ -24,6 +24,7 @@ module.exports = {
         menuSectionBg: "url('../../../public/assets/dessert1.webp')",
         contactsSectionBg: "url('../public/assets/interno.webp')",
         footerBg: "url('../public/assets/footerbg.webp')",
+        headerBG: "url('../public/assets/headerbg.jpg')",
       },
       backgroundSize: {
         300: "400%",

@@ -56,3 +56,15 @@ summary,
 [type="checkbox"] {
   cursor: pointer;
 }
+
+.visible {
+  /* display: flex; */
+  top: 0;
+  transition: top 0.4s ease-out;
+}
+
+.hidden {
+  /* display: none; */
+  top: -80px;
+  transition: top 0.4s ease-out;
+}

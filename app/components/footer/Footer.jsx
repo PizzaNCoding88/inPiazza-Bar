@@ -43,7 +43,7 @@ const Footer = () => {
           </div>
           <div className="z-10 flex flex-col justify-between gap-4 text-tertiary text-center font-antic">
             <p>Copyright © 2023 - In Piazza</p>
-            <Link href="/">
+            <Link href="/privacy-policy">
               <p className="border-b-[1px] border-b-solid border-b-tertiary pb-1 inline">
                 Policy sulla Privacy
               </p>
