@@ -4,6 +4,7 @@ import React from "react";
 import "./Header.css";
 import Navbar from "./Navbar";
 import Logo from "./Logo";
+import { usePathname } from "next/navigation";
 
 import { useState, useEffect } from "react";
 
@@ -29,9 +30,16 @@ const Header = () => {
     return () => window.removeEventListener("scroll", handleScroll);
   });
 
+  const router = usePathname();
+
   return (
     <>
-      <header className={`header ${visible ? "" : "opacity-0"}`}>
+      {console.log(router)}
+      <header
+        className={`header ${visible ? "" : "opacity-0"} ${
+          router != "/" ? "bg-red-500" : ""
+        }`}
+      >
         <div className="header_wrapper">
           <Logo />
           <Navbar />
