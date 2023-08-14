@@ -4,7 +4,7 @@ import Policy from "../components/ppolicy/Policy";
 const page = () => {
   return (
     <>
-      <main className="w-4/5 mx-auto">
+      <main className="bg-customGrey text-black">
         <Policy />
       </main>
     </>

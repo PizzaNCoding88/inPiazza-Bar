@@ -1,0 +1,36 @@
+ol {
+  counter-reset: item;
+  @apply text-base;
+}
+li {
+  display: block;
+  @apply mt-2;
+}
+li:before {
+  content: counters(item, ".") " ";
+  counter-increment: item;
+}
+
+.container {
+  @apply w-4/5 mx-auto;
+}
+
+h1 {
+  @apply mt-[7rem] text-4xl font-bold text-center mb-4;
+}
+
+p {
+  @apply mb-4;
+}
+
+.title1 {
+  @apply text-lg;
+}
+
+.titles {
+  @apply text-lg mt-3;
+}
+
+.bottom {
+  @apply text-lg my-8;
+}
