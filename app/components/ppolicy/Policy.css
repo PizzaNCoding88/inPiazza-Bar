@@ -1,12 +1,12 @@
-ol {
+.policy-points ol {
   counter-reset: item;
   @apply text-base;
 }
-li {
+.policy-points li {
   display: block;
   @apply mt-2;
 }
-li:before {
+.policy-points li:before {
   content: counters(item, ".") " ";
   counter-increment: item;
 }
