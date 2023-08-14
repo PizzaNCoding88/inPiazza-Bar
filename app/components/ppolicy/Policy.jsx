@@ -8,12 +8,13 @@ const Policy = () => {
       </h1>
       <p className="text-center mb-4">Ultimo Aggiornamento 01/09/2023</p>
       <p className="mb-4">
-        La presente Privacy Policy descrive come In Piazza ("noi", "nostro" o
-        "il sito") raccoglie, utilizza e protegge le informazioni personali
-        fornite dagli utenti ("tu", "tuo" o "l'utente") durante l'utilizzo del
-        nostro sito. Questa politica si applica solo alle informazioni raccolte
-        tramite il sito e non si applica alle informazioni raccolte offline o
-        tramite altri canali.
+        La presente Privacy Policy descrive come In Piazza (&quot;noi&quot;,
+        &quot;nostro&quot;o &quot;il sito&quot;) raccoglie, utilizza e protegge
+        le informazioni personali fornite dagli utenti (&quot;tu&quot; ,
+        &quot;tuo &quot; o &quot;l&apos;utente&quot;) durante l&apos;utilizzo
+        del nostro sito. Questa politica si applica solo alle informazioni
+        raccolte tramite il sito e non si applica alle informazioni raccolte
+        offline o tramite altri canali.
       </p>
       <ol>
         <li>Raccolta delle informazioni personali</li>
