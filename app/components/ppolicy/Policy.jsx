@@ -22,9 +22,10 @@ const Policy = () => {
           <li>
             Informazioni fornite volontariamente: Possiamo raccogliere
             informazioni personali fornite volontariamente dagli utenti, come il
-            nome, l'indirizzo e-mail, il numero di telefono, l'indirizzo e altre
-            informazioni di contatto, solo se fornite volontariamente durante la
-            registrazione o durante la compilazione di moduli sul sito.
+            nome, l&apos;indirizzo e-mail, il numero di telefono,
+            l&apos;indirizzo e altre informazioni di contatto, solo se fornite
+            volontariamente durante la registrazione o durante la compilazione
+            di moduli sul sito.
           </li>
         </ol>
       </ol>
