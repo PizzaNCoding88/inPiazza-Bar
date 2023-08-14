@@ -5,7 +5,6 @@ import "./Header.css";
 import Navbar from "./Navbar";
 import Logo from "./Logo";
 import { usePathname } from "next/navigation";
-
 import { useState, useEffect } from "react";
 
 const Header = () => {
@@ -34,10 +33,9 @@ const Header = () => {
 
   return (
     <>
-      {console.log(router)}
       <header
         className={`header ${visible ? "" : "opacity-0"} ${
-          router != "/" ? "bg-red-500" : ""
+          router != "/" ? "h-[7rem] bg-headerBG" : ""
         }`}
       >
         <div className="header_wrapper">
