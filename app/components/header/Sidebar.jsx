@@ -19,7 +19,7 @@ const Sidebar = (props) => {
     {
       id: 2,
       name: "La nostra storia",
-      href: "/",
+      href: "/storia",
     },
     {
       id: 3,
@@ -60,7 +60,7 @@ const Sidebar = (props) => {
             >
               {listItems.map((item) => {
                 return (
-                  <li key={item.id}>
+                  <li key={item.id} onClick={() => status()}>
                     {item.id === liArrLenght - 1 ? (
                       <Button text="Prenotazioni" link="/" style="sidebar" />
                     ) : (

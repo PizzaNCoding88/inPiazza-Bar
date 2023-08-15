@@ -1,0 +1,7 @@
+.container {
+  @apply w-4/5 mx-auto text-center flex flex-col gap-6 text-black;
+}
+
+.about-us__img-container {
+  @apply w-full h-full;
+}

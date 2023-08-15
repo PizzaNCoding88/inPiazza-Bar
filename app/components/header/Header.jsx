@@ -35,7 +35,7 @@ const Header = () => {
     <>
       <header
         className={`header ${visible ? "" : "opacity-0"} ${
-          router != "/" ? "h-[7rem] bg-headerBG" : ""
+          router != "/" ? "h-[7rem] bg-headerBG static" : ""
         }`}
       >
         <div className="header_wrapper">

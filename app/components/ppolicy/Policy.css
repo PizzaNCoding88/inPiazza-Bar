@@ -16,7 +16,7 @@
 }
 
 h1 {
-  @apply mt-[7rem] text-4xl font-bold text-center mb-4;
+  @apply text-4xl font-bold text-center mb-4;
 }
 
 p {
