@@ -1,5 +1,5 @@
 .container {
-  @apply w-4/5 mx-auto text-center flex flex-col gap-6 text-black;
+  @apply w-4/5 mx-auto text-center flex flex-col gap-6 py-6;
 }
 
 .about-us__img-container {
