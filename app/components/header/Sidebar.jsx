@@ -24,7 +24,7 @@ const Sidebar = (props) => {
     {
       id: 3,
       name: "Prenotazioni",
-      href: "/",
+      href: "/prenotazioni",
     },
   ];
 
@@ -62,7 +62,11 @@ const Sidebar = (props) => {
                 return (
                   <li key={item.id} onClick={() => status()}>
                     {item.id === liArrLenght - 1 ? (
-                      <Button text="Prenotazioni" link="/" style="sidebar" />
+                      <Button
+                        text="Prenotazioni"
+                        link="/prenotazioni"
+                        style="sidebar"
+                      />
                     ) : (
                       <Link href={item.href}>{item.name}</Link>
                     )}
