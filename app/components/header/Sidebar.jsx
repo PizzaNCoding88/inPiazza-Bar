@@ -9,7 +9,7 @@ const Sidebar = (props) => {
     {
       id: 0,
       name: "Food",
-      href: "/",
+      href: "/food",
     },
     {
       id: 1,
