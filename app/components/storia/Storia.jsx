@@ -6,6 +6,7 @@ import apertura from "../../../public/assets/apertura.webp";
 import cocktail from "../../../public/assets/cocktail1.webp";
 import champagne from "../../../public/assets/champagne.webp";
 import logo from "../../../public/assets/champagne.webp";
+import window from "../../../public/assets/window.webp";
 
 const Storia = () => {
   return (
@@ -79,7 +80,7 @@ const Storia = () => {
           <div className="storia_container text-white">
             <div className="about-us__img-container">
               <Image
-                src={logo}
+                src={window}
                 alt="opening pic"
                 className="rounded-tr-[0.4rem] rounded-bl-[0.4rem] rounded-tl-3xl rounded-br-3xl w-full h-full"
               />
