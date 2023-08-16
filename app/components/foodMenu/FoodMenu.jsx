@@ -9,8 +9,8 @@ const FoodMenu = () => {
   return (
     <>
       <section>
-        <picture>
-          <Image src={Menu} alt="menu" height={300} width={300} />
+        <picture className="w-[300px] mx-auto">
+          <Image src={Menu} alt="menu" width={300} />
         </picture>
       </section>
     </>
