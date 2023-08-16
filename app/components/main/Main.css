@@ -10,7 +10,7 @@
   @apply h-[100vh];
 
   &_fadedbg {
-    @apply h-[100vh] w-full absolute bg-slate-900 bg-opacity-50 z-0 top-0;
+    @apply h-[100vh] w-full absolute bg-slate-900 bg-opacity-[0.65] z-0 top-0;
   }
 
   &_background {

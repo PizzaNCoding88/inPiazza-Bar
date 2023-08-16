@@ -14,7 +14,7 @@ const Storia = () => {
       <main className="font-antic">
         <section>
           <div className="storia_container text-black">
-            <h1 className="text-5xl font-medium [text-shadow:_4px_4px_10px_rgba(0,0,0,0.5)] ">
+            <h1 className="text-5xl font-medium [text-shadow:_4px_4px_10px_rgba(0,0,0,0.8)] ">
               Chi Siamo
             </h1>
             <div className="about-us__img-container">
