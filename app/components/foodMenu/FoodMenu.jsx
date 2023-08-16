@@ -22,6 +22,7 @@ const FoodMenu = () => {
     <>
       <section>
         <motion.picture
+          initial={closed}
           animate={zoomed ? "open" : "closed"}
           variants={zoomVariants}
           //   className={
