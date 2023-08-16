@@ -13,7 +13,7 @@ const zoomVariants = {
 };
 
 const FoodMenu = () => {
-  const [zoomed, setZoomed] = useState();
+  const [zoomed, setZoomed] = useState(false);
 
   const setZoom = () => {
     setZoomed(!zoomed);
