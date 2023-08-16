@@ -10,10 +10,12 @@ import logo from "../../../public/assets/champagne.webp";
 const Storia = () => {
   return (
     <>
-      <main>
+      <main className="font-antic">
         <section>
-          <div className="container text-black">
-            <h1 className="text-5xl font-medium ">Chi Siamo</h1>
+          <div className="storia_container text-black">
+            <h1 className="text-5xl font-medium [text-shadow:_4px_4px_10px_rgba(0,0,0,0.5)] ">
+              Chi Siamo
+            </h1>
             <div className="about-us__img-container">
               <Image
                 src={apertura}
@@ -31,7 +33,7 @@ const Storia = () => {
           </div>
         </section>
         <section className="bg-primary">
-          <div className="container text-white">
+          <div className="storia_container text-white">
             <div className="about-us__img-container">
               <Image
                 src={cocktail}
@@ -53,7 +55,7 @@ const Storia = () => {
         </section>
 
         <section className="bg-form">
-          <div className="container text-black">
+          <div className="storia_container text-black">
             <div className="about-us__img-container">
               <Image
                 src={champagne}
@@ -74,7 +76,7 @@ const Storia = () => {
         </section>
 
         <section className="bg-primary">
-          <div className="container text-white">
+          <div className="storia_container text-white">
             <div className="about-us__img-container">
               <Image
                 src={logo}
@@ -95,7 +97,7 @@ const Storia = () => {
         </section>
 
         <section className="bg-form">
-          <div className="container text-black">
+          <div className="storia_container text-black">
             <p className="text-xl">
               Vi aspettiamo nel nostro bar, champagneria e cocktail lounge per
               farvi vivere esperienze uniche e indimenticabili. I nostri drink,
