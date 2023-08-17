@@ -11,7 +11,8 @@ const zoomVariants = {
   closed: { width: "400px" },
 };
 
-const DrinksMenu = () => {
+const DrinksMenu = (props) => {
+  const { drinks } = props;
   const [zoomed, setZoomed] = useState(false);
 
   const setZoom = () => {
@@ -20,6 +21,33 @@ const DrinksMenu = () => {
   return (
     <>
       <section>
+        {drinks.map((drinks) => {
+          return (
+            <>
+              <motion.picture
+                initial="closed"
+                animate={zoomed ? "open" : "closed"}
+                variants={zoomVariants}
+                onClick={setZoom}
+                className="mx-auto py-4"
+              >
+                <Image
+                  src={drinks.src}
+                  alt="menu"
+                  //   width={zoomed ? "w-full" : "w-[400px] mx-auto"}
+                  //   width={400}
+                  //   height={400}
+                  //   layout="fill"
+                  objectFit="cover"
+                  fill={true}
+                />
+              </motion.picture>
+            </>
+          );
+        })}
+      </section>
+
+      {/* <section>
         <motion.picture
           initial="closed"
           animate={zoomed ? "open" : "closed"}
@@ -33,7 +61,7 @@ const DrinksMenu = () => {
             width={zoomed ? "w-full" : "w-[400px] mx-auto"}
           />
         </motion.picture>
-      </section>
+      </section> */}
     </>
   );
 };
