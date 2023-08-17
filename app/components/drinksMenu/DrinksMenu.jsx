@@ -1,18 +1,17 @@
 "use client";
 
 import React from "react";
-import "./FoodMenu.css";
 import Image from "next/image";
-import Menu from "../../../public/assets/menu-gastronomia.webp";
 import { useState } from "react";
 import { motion } from "framer-motion";
+import Cocktails from "../../../public/assets/menu-cocktails.webp";
 
 const zoomVariants = {
   open: { width: "100%" },
   closed: { width: "400px" },
 };
 
-const FoodMenu = () => {
+const DrinksMenu = () => {
   const [zoomed, setZoomed] = useState(false);
 
   const setZoom = () => {
@@ -29,7 +28,7 @@ const FoodMenu = () => {
           className="mx-auto py-4"
         >
           <Image
-            src={Menu}
+            src={Cocktails}
             alt="menu"
             width={zoomed ? "w-full" : "w-[400px] mx-auto"}
           />
@@ -39,4 +38,4 @@ const FoodMenu = () => {
   );
 };
 
-export default FoodMenu;
+export default DrinksMenu;

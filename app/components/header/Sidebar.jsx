@@ -14,7 +14,7 @@ const Sidebar = (props) => {
     {
       id: 1,
       name: "Drinks",
-      href: "/",
+      href: "/drinks",
     },
     {
       id: 2,
