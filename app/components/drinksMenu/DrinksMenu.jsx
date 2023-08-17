@@ -11,11 +11,6 @@ import Liquori from "../../../public/assets/menu-liquori.webp";
 import Vini from "../../../public/assets/menu-vini-1.webp";
 import Menu from "../menu/Menu.jsx";
 
-const zoomVariants = {
-  open: { width: "100%" },
-  closed: { width: "400px" },
-};
-
 const DrinksMenu = () => {
   //
   const [zoomed, setZoomed] = useState(false);
