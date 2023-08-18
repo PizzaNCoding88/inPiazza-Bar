@@ -14,11 +14,11 @@ const Header = () => {
   const handleScroll = () => {
     const currentScrollPos = window.scrollY;
 
-    if (currentScrollPos > prevScrollPos) {
-      setVisible(false);
-    } else {
-      setVisible(true);
-    }
+    // if (currentScrollPos > prevScrollPos) {
+    //   setVisible(false);
+    // } else {
+    //   setVisible(true);
+    // }
 
     setPrevScrollPos(currentScrollPos);
   };
@@ -34,10 +34,12 @@ const Header = () => {
 
   const router = usePathname();
 
+  const scroll = window.scrollY;
+  const headerHeight = 30;
   return (
     <>
       <header
-        className={`header ${scroll < offset ? "" : "opacity-0"} ${
+        className={`header ${visible ? "" : "opacity-0"} ${
           router != "/" ? "h-[7rem] bg-headerBG static" : ""
         }`}
       >
