@@ -8,37 +8,43 @@ import { usePathname } from "next/navigation";
 import { useState, useEffect } from "react";
 
 const Header = () => {
-  const [prevScrollPos, setPrevScrollPos] = useState(0);
-  const [visible, setVisible] = useState(true);
+  // const [prevScrollPos, setPrevScrollPos] = useState(0);
+  // const [visible, setVisible] = useState(true);
+  const [scroll, setScroll] = useState(0);
 
-  const handleScroll = () => {
-    const currentScrollPos = window.scrollY;
-
-    // if (currentScrollPos > prevScrollPos) {
-    //   setVisible(false);
-    // } else {
-    //   setVisible(true);
-    // }
-
-    setPrevScrollPos(currentScrollPos);
-  };
-
-  useEffect(() => {
-    window.addEventListener("scroll", handleScroll);
-
-    return () => window.removeEventListener("scroll", handleScroll);
+  window.addEventListener("scroll", () => {
+    setScroll(window.scrollY);
   });
+
+  // const handleScroll = () => {
+  //   const currentScrollPos = window.scrollY;
+
+  //   // if (currentScrollPos > prevScrollPos) {
+  //   //   setVisible(false);
+  //   // } else {
+  //   //   setVisible(true);
+  //   // }
+
+  //   setPrevScrollPos(currentScrollPos);
+  // };
+
+  // useEffect(() => {
+  //   window.addEventListener("scroll", handleScroll);
+
+  //   return () => window.removeEventListener("scroll", handleScroll);
+  // });
 
   const router = usePathname();
 
-  const scroll = window.scrollY;
   const headerHeight = 30;
   return (
     <>
       <header
-        className={`header ${scroll < headerHeight ? "" : "opacity-0"} ${
-          router != "/" ? "h-[7rem] bg-headerBG static" : ""
-        }`}
+        className={`header ${
+          scroll < headerHeight
+            ? "transition-all duration-100"
+            : "opacity-0 transition-all duration-100"
+        } ${router != "/" ? "h-[7rem] bg-headerBG static" : ""}`}
       >
         <div className="header_wrapper">
           <Logo />
