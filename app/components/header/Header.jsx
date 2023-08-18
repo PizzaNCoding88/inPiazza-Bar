@@ -29,9 +29,6 @@ const Header = () => {
     return () => window.removeEventListener("scroll", handleScroll);
   });
 
-  const scroll = window.scrollY;
-  const offset = 50;
-
   const router = usePathname();
 
   const scroll = window.scrollY;
@@ -39,7 +36,7 @@ const Header = () => {
   return (
     <>
       <header
-        className={`header ${visible ? "" : "opacity-0"} ${
+        className={`header ${scroll < headerHeight ? "" : "opacity-0"} ${
           router != "/" ? "h-[7rem] bg-headerBG static" : ""
         }`}
       >
