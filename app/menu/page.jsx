@@ -1,10 +1,10 @@
 import React from "react";
-import DrinksMenu from "../components/drinksMenu/DrinksMenu";
+import MenuPage from "../components/menu/MenuPage";
 
 const page = () => {
   return (
     <>
-      <DrinksMenu />
+      <MenuPage />
     </>
   );
 };

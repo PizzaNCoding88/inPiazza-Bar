@@ -2,29 +2,29 @@ import React from "react";
 import { motion, AnimatePresence } from "framer-motion";
 import Link from "next/link";
 import Button from "../button/Button";
+import { BiDrink } from "react-icons/bi";
+import { BsInfoSquare, BsCalendarEvent } from "react-icons/bs";
 
 const Sidebar = (props) => {
   const { isOpen, status } = props;
   const listItems = [
     {
       id: 0,
-      name: "Food",
-      href: "/food",
+      name: "Menu",
+      href: "/menu",
+      icon: <BiDrink />,
     },
     {
       id: 1,
-      name: "Drinks",
-      href: "/drinks",
+      name: "La nostra storia",
+      href: "/storia",
+      icon: <BsInfoSquare />,
     },
     {
       id: 2,
-      name: "La nostra storia",
-      href: "/storia",
-    },
-    {
-      id: 3,
       name: "Prenotazioni",
       href: "/prenotazioni",
+      icon: <BsCalendarEvent />,
     },
   ];
 
@@ -61,15 +61,26 @@ const Sidebar = (props) => {
               {listItems.map((item) => {
                 return (
                   <li key={item.id} onClick={() => status()}>
-                    {item.id === liArrLenght - 1 ? (
+                    <Link href={item.href} className="flex items-center gap-8">
+                      {item.icon}
+                      {item.name}
+                    </Link>
+
+                    {/* {item.id === liArrLenght - 1 ? (
                       <Button
                         text="Prenotazioni"
                         link="/prenotazioni"
                         style="sidebar"
                       />
                     ) : (
-                      <Link href={item.href}>{item.name}</Link>
-                    )}
+                      <Link
+                        href={item.href}
+                        className="flex items-center gap-8"
+                      >
+                        {item.icon}
+                        {item.name}
+                      </Link>
+                    )} */}
                   </li>
                 );
               })}
