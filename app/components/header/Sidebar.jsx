@@ -1,9 +1,10 @@
 import React from "react";
 import { motion, AnimatePresence } from "framer-motion";
 import Link from "next/link";
-import Button from "../button/Button";
 import { BiDrink } from "react-icons/bi";
 import { BsInfoSquare, BsCalendarEvent } from "react-icons/bs";
+import { CiInstagram } from "react-icons/ci";
+import { LiaFacebookSquare } from "react-icons/lia";
 
 const Sidebar = (props) => {
   const { isOpen, status } = props;
@@ -85,6 +86,14 @@ const Sidebar = (props) => {
                 );
               })}
             </motion.ul>
+            <div className="absolute flex left-1/2 -translate-x-1/2 gap-8 bottom-4 text-3xl">
+              <Link href="https://www.instagram.com/inpiazzareal?fbclid=IwAR3s_4nw5A2M_wNTpEhTgQqY5T-UJaExnIo7c5PkK-Ja5OnFifUIwB5Jqxk">
+                <CiInstagram />
+              </Link>
+              <Link href="https://www.facebook.com/inpiazzareal">
+                <LiaFacebookSquare />
+              </Link>
+            </div>
           </motion.div>
         )}
       </AnimatePresence>
