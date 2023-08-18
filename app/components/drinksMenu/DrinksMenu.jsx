@@ -1,38 +1,22 @@
 "use client";
 
 import React from "react";
-import Image from "next/image";
-import { useState } from "react";
-import { motion } from "framer-motion";
 import Cocktails from "../../../public/assets/menu-cocktails.webp";
-
-const zoomVariants = {
-  open: { width: "100%" },
-  closed: { width: "400px" },
-};
+import LiquoriChampagne from "../../../public/assets/menu-liquori-champagne.webp";
+import LiquoriDessert from "../../../public/assets/menu-liquori-desserts.webp";
+import Liquori from "../../../public/assets/menu-liquori.webp";
+import Vini from "../../../public/assets/menu-vini-1.webp";
+import Menu from "../menu/Menu.jsx";
 
 const DrinksMenu = () => {
-  const [zoomed, setZoomed] = useState(false);
-
-  const setZoom = () => {
-    setZoomed(!zoomed);
-  };
   return (
     <>
       <section>
-        <motion.picture
-          initial="closed"
-          animate={zoomed ? "open" : "closed"}
-          variants={zoomVariants}
-          onClick={setZoom}
-          className="mx-auto py-4"
-        >
-          <Image
-            src={Cocktails}
-            alt="menu"
-            width={zoomed ? "w-full" : "w-[400px] mx-auto"}
-          />
-        </motion.picture>
+        <Menu src={Cocktails} />
+        <Menu src={LiquoriChampagne} />
+        <Menu src={LiquoriDessert} />
+        <Menu src={Liquori} />
+        <Menu src={Vini} />
       </section>
     </>
   );
