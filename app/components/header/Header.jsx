@@ -12,8 +12,10 @@ const Header = () => {
   // const [visible, setVisible] = useState(true);
   const [scroll, setScroll] = useState(0);
 
-  window.addEventListener("scroll", () => {
-    setScroll(window.scrollY);
+  useEffect(() => {
+    window.addEventListener("scroll", () => {
+      setScroll(window.scrollY);
+    });
   });
 
   // const handleScroll = () => {
