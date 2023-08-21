@@ -3,5 +3,5 @@
 }
 
 .about-us__img-container {
-  @apply w-full h-full;
+  @apply aspect-4/5 h-80  relative;
 }

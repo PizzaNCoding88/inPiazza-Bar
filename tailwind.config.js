@@ -43,6 +43,9 @@ module.exports = {
       gridTemplateRows: {
         custom: "1fr,1fr,2fr",
       },
+      aspectRatio: {
+        "4/5": "4 / 5",
+      },
     },
   },
   plugins: [],
