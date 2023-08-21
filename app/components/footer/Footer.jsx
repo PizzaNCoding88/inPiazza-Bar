@@ -23,7 +23,7 @@ const Footer = () => {
               <Image alt="instagram" src={instagramIco} className="h-14 w-14" />
             </Link>
           </div>
-          <div className="z-10 flex flex-col gap-4">
+          <div className="z-10 flex flex-col gap-2">
             <div className="flex justify-center items-center">
               <Image
                 alt="location"
@@ -41,15 +41,17 @@ const Footer = () => {
               </p>
             </div>
           </div>
-          <div className="z-10 flex flex-col justify-between gap-4 text-tertiary text-center font-antic">
+          <div className="z-10 flex flex-col justify-between gap-2 text-tertiary text-center font-antic">
             <p>Copyright © 2023 - In Piazza</p>
             <Link href="/privacy-policy">
-              <p className="border-b-[1px] border-b-solid border-b-tertiary pb-1 inline">
+              <p className="border-b-[1px] border-b-solid border-b-tertiary pb-1 inline border-opacity-50">
                 Policy sulla Privacy
               </p>
             </Link>
             <Link target="_blank" href="http://www.umbertonardiello.com">
-              <p>Made by Umberto Nardiello</p>
+              <p className="border-b-[1px] border-b-solid border-b-tertiary pb-1 inline border-opacity-50">
+                Made by Umberto Nardiello
+              </p>
             </Link>
           </div>
         </div>
