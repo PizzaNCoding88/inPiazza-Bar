@@ -48,7 +48,9 @@ const Footer = () => {
                 Policy sulla Privacy
               </p>
             </Link>
-            <p>Made by Umberto Nardiello</p>
+            <Link target="_blank" href="http://www.umbertonardiello.com">
+              <p>Made by Umberto Nardiello</p>
+            </Link>
           </div>
         </div>
       </footer>
