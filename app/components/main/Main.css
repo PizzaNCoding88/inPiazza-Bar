@@ -45,7 +45,3 @@
     @apply text-center text-2xl [text-shadow:_0_6px_4px_rgba(255_255_255_/_50%)];
   }
 }
-
-.menu-section {
-  @apply bg-menuSectionBg py-16 bg-semiCenter bg-cover bg-no-repeat;
-}

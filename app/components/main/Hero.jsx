@@ -22,11 +22,13 @@ const Hero = () => {
           <Button text="Contattaci" link="#contacts" style="secondary" />
         </div>
         <div className="section_arrows">
-          <Image
-            src={downIcon}
-            alt="double down arrow icon"
-            className="h-6 w-6 animate-bounce"
-          />
+          <a href="#next-section">
+            <Image
+              src={downIcon}
+              alt="double down arrow icon"
+              className="h-6 w-6 animate-bounce"
+            />
+          </a>
         </div>
       </section>
     </>

@@ -14,7 +14,7 @@ const DrinksMenu = () => {
     <>
       <section>
         <Menu src={Food} />
-        <Menu src={Cocktails} />
+        <Menu src={Cocktails} id="cocktails" />
         <Menu src={LiquoriChampagne} />
         <Menu src={LiquoriDessert} />
         <Menu src={Liquori} />
