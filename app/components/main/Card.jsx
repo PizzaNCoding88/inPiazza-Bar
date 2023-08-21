@@ -42,7 +42,7 @@ const Card = () => {
                 <Image
                   alt={c.alt}
                   src={c.link}
-                  objectFit="cover"
+                  style={{ objectFit: "cover" }}
                   fill="true"
                   className="rounded-tr-[0.4rem] rounded-bl-[0.4rem] rounded-tl-3xl rounded-br-3xl"
                 />

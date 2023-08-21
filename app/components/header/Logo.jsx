@@ -11,7 +11,6 @@ const Logo = () => {
           <Image
             src={logo}
             alt="logo"
-            fill="true"
             className="header_wrapper_logo_image"
           ></Image>
         </Link>
