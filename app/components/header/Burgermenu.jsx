@@ -17,18 +17,18 @@ const Burgermenu = (props) => {
         <span
           className={`top-0 left-0 header_navbar_burger-menu_wrapper_span ${
             isOpen
-              ? "rotate-45 translate-y-3 opacity-50"
+              ? "opacity-0 transition-opacity duration-75"
               : "rotate-0 translate-y-0"
           }`}
         ></span>
         <span
           className={`mt-3 header_navbar_burger-menu_wrapper_span translate-x-2 ${
-            isOpen ? " scale-150 opacity-0" : ""
+            isOpen ? " opacity-0 transition-opacity duration-75" : ""
           }`}
         ></span>
         <span
           className={`mt-6 header_navbar_burger-menu_wrapper_span ${
-            isOpen ? "-rotate-45 -translate-y-3 opacity-50 " : "opacity-100"
+            isOpen ? "opacity-0 transition-opacity duration-75 " : "opacity-100"
           }`}
         ></span>
       </div>
