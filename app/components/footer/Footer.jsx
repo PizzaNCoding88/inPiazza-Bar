@@ -5,6 +5,7 @@ import facebookIco from "../../../public/assets/icons/facebook.png";
 import instagramIco from "../../../public/assets/icons/instagram.png";
 import locationIco from "../../../public/assets/icons/location.png";
 import phoneIco from "../../../public/assets/icons/phone.png";
+import "./Footer.css";
 
 const Footer = () => {
   const facebook = "https://www.facebook.com/inpiazzareal";
@@ -12,10 +13,10 @@ const Footer = () => {
     "https://www.instagram.com/inpiazzareal?fbclid=IwAR3s_4nw5A2M_wNTpEhTgQqY5T-UJaExnIo7c5PkK-Ja5OnFifUIwB5Jqxk";
   return (
     <>
-      <footer className="bg-footerBg bg-cover py-8 relative">
-        <div className="absolute top-0 bottom-0 left-0 right-0 blur-2xl bg-slate-900 bg-opacity-50 z-0"></div>
-        <div className="grid grid-cols-1 grid-rows-custom h-full w-[90%] mx-auto">
-          <div className="flex gap-8 justify-center z-10">
+      <footer className="footer">
+        <div className="footer_container"></div>
+        <div className="footer_content">
+          <div className="footer_content_social">
             <Link href={facebook}>
               <Image alt="facebook" src={facebookIco} className="h-14 w-14" />
             </Link>
@@ -23,7 +24,7 @@ const Footer = () => {
               <Image alt="instagram" src={instagramIco} className="h-14 w-14" />
             </Link>
           </div>
-          <div className="z-10 flex flex-col gap-2">
+          <div className="footer_content_directions-address">
             <div className="flex justify-center items-center">
               <Image
                 alt="location"
@@ -41,7 +42,7 @@ const Footer = () => {
               </p>
             </div>
           </div>
-          <div className="z-10 flex flex-col justify-between gap-2 text-tertiary text-center font-antic">
+          <div className="footer_content_policy-copyright">
             <p>Copyright © 2023 - In Piazza</p>
             <Link href="/privacy-policy">
               <p className="border-b-[1px] border-b-solid border-b-tertiary pb-1 inline border-opacity-50">
