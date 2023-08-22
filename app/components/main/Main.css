@@ -18,19 +18,19 @@
   }
 
   &_hero-header {
-    @apply absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-full bg-customGrey bg-opacity-60 w-4/5 text-center py-10 z-10 rounded-tr-md rounded-bl-md rounded-tl-[3rem] rounded-br-[3rem];
+    @apply absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-full bg-customGrey bg-opacity-60 w-4/5 text-center py-10 z-10 rounded-tr-md rounded-bl-md rounded-tl-[3rem] rounded-br-[3rem] md:max-w-[70%] md:mt-8;
   }
 
   &_hero-header_h1 {
-    @apply font-americana uppercase text-5xl drop-shadow-heroShadow text-primary stroke;
+    @apply font-americana uppercase text-5xl drop-shadow-heroShadow text-primary stroke md:text-6xl;
   }
 
   &_hero-header_p {
-    @apply text-3xl mt-3 font-neon drop-shadow-heroShadow text-primary stroke1;
+    @apply text-3xl mt-3 font-neon drop-shadow-heroShadow text-primary stroke1 md:text-4xl;
   }
 
   &_hero_cta {
-    @apply absolute top-3/4 left-1/2 -translate-x-1/2 -translate-y-1/2 flex flex-col w-4/5 gap-10 px-12;
+    @apply absolute top-3/4 left-1/2 -translate-x-1/2 -translate-y-1/2 flex flex-col w-4/5 gap-10 px-12 md:flex-row md:w-4/5 md:justify-between;
   }
 
   &_arrows {
