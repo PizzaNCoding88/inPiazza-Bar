@@ -25,7 +25,7 @@ const Footer = () => {
             </Link>
           </div>
           <div className="footer_content_directions-address">
-            <div className="flex justify-center items-center">
+            <div className="flex justify-center">
               <Image
                 alt="location"
                 src={locationIco}
@@ -35,7 +35,7 @@ const Footer = () => {
                 Via Posidonia, 409, Salerno, Italy, 84129
               </p>
             </div>
-            <div className="flex justify-center items-center">
+            <div className="flex justify-center">
               <Image alt="location" src={phoneIco} className="h-6 w-6 mr-1" />
               <p className="text-tertiary text-center font-antic">
                 +39 089 935 5030
