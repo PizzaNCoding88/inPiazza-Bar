@@ -41,7 +41,7 @@ module.exports = {
         menuBtnBoxShadow: "4px 4px 4px rgb(0,0,0)",
       },
       gridTemplateRows: {
-        custom: "1fr,1fr,2fr",
+        custom: "1fr,1fr,1fr",
       },
       aspectRatio: {
         "4/5": "4 / 5",

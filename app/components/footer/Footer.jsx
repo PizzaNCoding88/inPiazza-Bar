@@ -14,7 +14,7 @@ const Footer = () => {
     <>
       <footer className="bg-footerBg bg-cover py-8 relative">
         <div className="absolute top-0 bottom-0 left-0 right-0 blur-2xl bg-slate-900 bg-opacity-50 z-0"></div>
-        <div className="grid grid-cols-1 grid-rows-custom h-full w-[90%] mx-auto gap-5">
+        <div className="grid grid-cols-1 grid-rows-custom h-full w-[90%] mx-auto ">
           <div className="flex gap-8 justify-center z-10">
             <Link href={facebook}>
               <Image alt="facebook" src={facebookIco} className="h-14 w-14" />
