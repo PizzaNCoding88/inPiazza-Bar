@@ -5,13 +5,13 @@ const Burgermenu = (props) => {
   return (
     <>
       <div
-        className={`transition-all duration-300 ${
+        className={`transition-all duration-300 md:hidden ${
           isOpen ? "header_navbar_burger-menu" : "invisible"
         }`}
         onClick={() => status()}
       ></div>
       <div
-        className="header_navbar_burger-menu_wrapper"
+        className="header_navbar_burger-menu_wrapper md:hidden"
         onClick={() => status()}
       >
         <span
