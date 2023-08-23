@@ -13,11 +13,11 @@ const Map = () => {
         target="_blank"
         className="w-4/5 block mx-auto sm:max-w-[40rem]"
       >
-        <div className="">
+        <div className="h-full">
           <Image
             alt="map"
             src={MapImg}
-            className="rounded-bl-lg rounded-br-lg"
+            className="rounded-bl-lg rounded-br-lg md:rounded-bl-none md:rounded-tr-lg h-full"
           />
         </div>
       </Link>
