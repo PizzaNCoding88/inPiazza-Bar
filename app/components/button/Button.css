@@ -18,6 +18,11 @@
     shadow-menuBtnBoxShadow;
   }
 }
+
+.cta {
+  @apply sm:w-[45%];
+}
+
 .link:focus,
 .link:hover,
 .link:active {

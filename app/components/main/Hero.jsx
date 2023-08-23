@@ -18,8 +18,13 @@ const Hero = () => {
           <p className="section_hero-header_p">Aperichic Bar</p>
         </div>
         <div className="section_hero_cta">
-          <Button text="Menu" link="/menu" style="primary" />
-          <Button text="Contattaci" link="#contacts" style="secondary" />
+          <Button text="Menu" link="/menu" style="primary" linkstyle="cta" />
+          <Button
+            text="Contattaci"
+            link="#contacts"
+            style="secondary"
+            linkstyle="cta"
+          />
         </div>
         <div className="section_arrows">
           <a href="#next-section">
