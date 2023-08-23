@@ -1,0 +1,23 @@
+.footer {
+  @apply bg-footerBg bg-cover py-8 relative;
+
+  &_container {
+    @apply absolute top-0 bottom-0 left-0 right-0 blur-2xl bg-slate-900 bg-opacity-50 z-0;
+  }
+
+  &_content {
+    @apply grid grid-cols-1 h-full w-[90%] mx-auto my-auto gap-6;
+
+    &_social {
+      @apply flex gap-8 justify-center z-10;
+    }
+
+    &_directions-address {
+      @apply z-10 flex flex-col gap-2 sm:flex-row sm:gap-8 sm:justify-center sm:pr-32;
+    }
+
+    &_policy-copyright {
+      @apply z-10 flex flex-col justify-between gap-2 text-tertiary text-center font-antic sm:flex-row sm:gap-8;
+    }
+  }
+}

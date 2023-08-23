@@ -1,3 +1,7 @@
+.container {
+  @apply w-4/5 mx-auto pt-4;
+}
+
 .policy-points ol {
   counter-reset: item;
   @apply text-base;
@@ -9,10 +13,6 @@
 .policy-points li:before {
   content: counters(item, ".") " ";
   counter-increment: item;
-}
-
-.container {
-  @apply w-4/5 mx-auto;
 }
 
 h1 {

@@ -34,10 +34,14 @@ const Card = () => {
   ];
   return (
     <>
-      {card.map((c) => {
+      {card.map((c, i) => {
         return (
           <>
-            <div className="flex flex-col items-center mt-12">
+            <div
+              className={`flex flex-col items-center mt-12 sm:w-4/5 sm:mx-auto ${
+                i % 2 === 0 ? "sm:items-start" : "sm:items-end"
+              }`}
+            >
               <div className="w-full relative h-64 aspect-video">
                 <Image
                   alt={c.alt}
@@ -50,20 +54,6 @@ const Card = () => {
               <h2 className="mt-4 text-2xl">{c.title}</h2>
               <p className="mt-2 text-lg text-center">{c.subtitle}</p>
             </div>
-            {/* <div className="flex flex-col items-center mt-12">
-              <div className="w-full relative">
-                <Image
-                  alt={c.alt}
-                  src={c.link}
-                  objectFit="cover"
-                  className={`${
-                    c.link === cocktails ? " min-h-16" : "null"
-                  } rounded-tr-[0.4rem] rounded-bl-[0.4rem] rounded-tl-3xl rounded-br-3xl`}
-                />
-              </div>
-              <h2 className="mt-4 text-2xl">{c.title}</h2>
-              <p className="mt-2 text-lg text-center">{c.subtitle}</p>
-            </div> */}
           </>
         );
       })}
