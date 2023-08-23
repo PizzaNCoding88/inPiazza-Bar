@@ -15,7 +15,7 @@ const Footer = () => {
     <>
       <footer className="footer">
         <div className="footer_container">
-          <div className="hidden md:inline-block md:w-[216px] md:bg-blue-500"></div>
+          <div className="hidden md:inline md:w-[216px] md:bg-blue-500"></div>
           <div className="footer_content">
             <div className="footer_content_social">
               <Link href={facebook}>
