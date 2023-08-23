@@ -42,6 +42,6 @@
   @apply bg-gradient-to-r from-[rgba(161,114,103,100%)] via-[rgba(139,99,89,51%)] to-[rgba(30,30,30,90%)] font-antic py-8 px-6;
 
   &_h1 {
-    @apply text-center text-2xl [text-shadow:_0_6px_4px_rgba(255_255_255_/_50%)];
+    @apply text-center text-2xl md:text-4xl [text-shadow:_0_6px_4px_rgba(255_255_255_/_50%)];
   }
 }
