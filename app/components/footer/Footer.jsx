@@ -6,6 +6,7 @@ import instagramIco from "../../../public/assets/icons/instagram.png";
 import locationIco from "../../../public/assets/icons/location.png";
 import phoneIco from "../../../public/assets/icons/phone.png";
 import "./Footer.css";
+import Logo from "../../../public/assets/logo.webp";
 
 const Footer = () => {
   const facebook = "https://www.facebook.com/inpiazzareal";
@@ -15,7 +16,12 @@ const Footer = () => {
     <>
       <footer className="footer">
         <div className="footer_container">
-          <div className="hidden md:inline md:w-[216px] md:bg-blue-500"></div>
+          <div className="hidden md:w-[216px] md:bg-[#20201F] md:flex md:flex-col md:justify-center md:items-center md:gap-8 ">
+            <div className="h-20 w-20">
+              <Image src={Logo} alt="logo" className="rounded-full" />
+            </div>
+            <p className="text-sm">Copyright © 2023 - In Piazza</p>
+          </div>
           <div className="footer_content">
             <div className="footer_content_social">
               <Link href={facebook}>
