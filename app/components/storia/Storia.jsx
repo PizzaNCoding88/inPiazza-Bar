@@ -18,7 +18,7 @@ const Storia = () => {
             <h1 className="text-5xl font-medium [text-shadow:_4px_4px_10px_rgba(0,0,0,0.8)] ">
               Chi Siamo
             </h1>
-            <div>
+            <div className="lg:flex flex-row lg:items-center gap-8">
               <div className="about-us__img-container">
                 <Image
                   src={apertura}
@@ -28,7 +28,7 @@ const Storia = () => {
                   className="rounded-tr-[0.4rem] rounded-bl-[0.4rem] rounded-tl-3xl rounded-br-3xl w-full h-full "
                 />
               </div>
-              <p className="text-xl mt-6">
+              <p className="text-xl mt-6 lg:text-2xl">
                 Benvenuti ad In Piazza, il nostro bar, champagneria e cocktail
                 lounge! <br /> <br />
                 Siamo due amici che, dopo anni di duro lavoro, sacrifici e
