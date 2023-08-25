@@ -12,10 +12,6 @@ import { useState } from "react";
 import MenuModal from "./MenuModal";
 
 const DrinksMenu = () => {
-  const [isopen, setIsopen] = useState(false);
-  function openModal() {
-    setIsopen(!isopen);
-  }
   return (
     <>
       <section>
@@ -28,14 +24,15 @@ const DrinksMenu = () => {
           <Menu src={Vini} />
         </div>
         <div className="lg:flex lg:gap-4 px-4 lg:h-screen lg:items-center">
-          <Menu src={Food} onClick={openModal} />
+          <Menu src={Food} />
+
           <Menu src={Cocktails} id="cocktails" />
+          <Menu src={Cocktails} />
           <Menu src={LiquoriChampagne} />
           <Menu src={LiquoriDessert} />
           <Menu src={Liquori} />
           <Menu src={Vini} />
         </div>
-        {isopen && <MenuModal src={Food} />}
       </section>
     </>
   );
