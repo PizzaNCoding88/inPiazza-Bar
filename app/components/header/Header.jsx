@@ -8,8 +8,6 @@ import { usePathname } from "next/navigation";
 import { useState, useEffect } from "react";
 
 const Header = () => {
-  // const [prevScrollPos, setPrevScrollPos] = useState(0);
-  // const [visible, setVisible] = useState(true);
   const [scroll, setScroll] = useState(0);
 
   useEffect(() => {

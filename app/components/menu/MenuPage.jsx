@@ -8,17 +8,34 @@ import Liquori from "../../../public/assets/menu-liquori.webp";
 import Vini from "../../../public/assets/menu-vini-1.webp";
 import Food from "../../../public/assets/menu-gastronomia.webp";
 import Menu from "./Menu.jsx";
+import { useState } from "react";
+import MenuModal from "./MenuModal";
 
 const DrinksMenu = () => {
+  const [isopen, setIsopen] = useState(false);
+  function openModal() {
+    setIsopen(!isopen);
+  }
   return (
     <>
       <section>
-        <Menu src={Food} />
-        <Menu src={Cocktails} id="cocktails" />
-        <Menu src={LiquoriChampagne} />
-        <Menu src={LiquoriDessert} />
-        <Menu src={Liquori} />
-        <Menu src={Vini} />
+        <div className="lg:hidden">
+          <Menu src={Food} />
+          <Menu src={Cocktails} id="cocktails" />
+          <Menu src={LiquoriChampagne} />
+          <Menu src={LiquoriDessert} />
+          <Menu src={Liquori} />
+          <Menu src={Vini} />
+        </div>
+        <div className="lg:flex lg:gap-4 px-4 lg:h-screen lg:items-center">
+          <Menu src={Food} onClick={openModal} />
+          <Menu src={Cocktails} id="cocktails" />
+          <Menu src={LiquoriChampagne} />
+          <Menu src={LiquoriDessert} />
+          <Menu src={Liquori} />
+          <Menu src={Vini} />
+        </div>
+        {isopen && <MenuModal src={Food} />}
       </section>
     </>
   );
