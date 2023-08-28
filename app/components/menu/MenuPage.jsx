@@ -30,7 +30,6 @@ const DrinksMenu = () => {
         <div className="lg:flex lg:gap-4 px-4 lg:h-screen lg:items-center">
           <Menu src={Food} />
           <Menu src={Cocktails} id="cocktails" />
-          <Menu src={Cocktails} />
           <Menu src={LiquoriChampagne} />
           <Menu src={LiquoriDessert} />
           <Menu src={Liquori} />
