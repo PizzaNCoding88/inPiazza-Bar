@@ -15,7 +15,6 @@ const ContactsSection = () => {
     >
       <div className="flex flex-col md:flex-row md:w-4/5 md:mx-auto md:gap-0">
         <ContactForm />
-        <div className="hidden md:block md:w-[2px] md:bg-black "></div>
         <Map />
       </div>
     </section>
