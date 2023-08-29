@@ -5,7 +5,7 @@ import Image from "next/image";
 import apertura from "../../../public/assets/apertura.webp";
 import cocktail from "../../../public/assets/cocktail1.webp";
 import champagne from "../../../public/assets/champagne.webp";
-import logo from "../../../public/assets/champagne.webp";
+// import logo from "../../../public/assets/champagne.webp";
 import window from "../../../public/assets/window.webp";
 import { motion } from "framer-motion";
 
