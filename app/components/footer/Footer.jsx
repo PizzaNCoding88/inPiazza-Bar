@@ -16,11 +16,13 @@ const Footer = () => {
     <>
       <footer className="footer">
         <div className="footer_container">
-          <div className="hidden md:w-[216px] md:bg-[#20201F] md:flex md:flex-col md:justify-center md:items-center md:gap-8 ">
+          <div className="hidden md:w-[216px] md:bg-[#20201F] md:flex md:flex-col md:justify-center md:items-center md:gap-8 xl:w-[240px]">
             <div className="h-20 w-20">
               <Image src={Logo} alt="logo" className="rounded-full" />
             </div>
-            <p className="text-sm">Copyright © 2023 - In Piazza</p>
+            <p className="text-sm xl:text-[1rem]">
+              Copyright © 2023 - In Piazza
+            </p>
           </div>
           <div className="footer_content">
             <div className="footer_content_social">
@@ -42,13 +44,13 @@ const Footer = () => {
                   src={locationIco}
                   className="h-6 w-6 mr-1"
                 />
-                <p className="text-tertiary text-center font-antic">
+                <p className="text-tertiary text-center font-antic xl:text-lg">
                   Via Posidonia, 409, Salerno, Italy, 84129
                 </p>
               </div>
               <div className="flex justify-center">
                 <Image alt="location" src={phoneIco} className="h-6 w-6 mr-1" />
-                <p className="text-tertiary text-center font-antic">
+                <p className="text-tertiary text-center font-antic xl:text-lg">
                   +39 089 935 5030
                 </p>
               </div>
@@ -56,12 +58,12 @@ const Footer = () => {
             <div className="footer_content_policy-copyright">
               <p className="md:hidden">Copyright © 2023 - In Piazza</p>
               <Link href="/privacy-policy">
-                <p className="border-b-[1px] border-b-solid border-b-tertiary pb-1 inline border-opacity-50">
+                <p className="border-b-[1px] border-b-solid border-b-tertiary pb-1 inline border-opacity-50 xl:text-lg">
                   Policy sulla Privacy
                 </p>
               </Link>
               <Link target="_blank" href="http://www.umbertonardiello.com">
-                <p className="border-b-[1px] border-b-solid border-b-tertiary pb-1 inline border-opacity-50">
+                <p className="border-b-[1px] border-b-solid border-b-tertiary pb-1 inline border-opacity-50 xl:text-lg">
                   Made by Umberto Nardiello
                 </p>
               </Link>

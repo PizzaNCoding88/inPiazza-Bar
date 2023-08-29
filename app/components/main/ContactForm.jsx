@@ -18,7 +18,7 @@ const ContactForm = () => {
           <input
             type="text"
             id="name"
-            className="bg-transparent block border-b border-b-secondary w-full pl-2 pb-2 mb-2 text-primary focus:outline-none placeholder:text-primary placeholder:font-antic placeholder:font-bold xl:mt-8"
+            className="bg-transparent block border-b border-b-secondary w-full pl-2 pb-2 mb-2 text-primary focus:outline-none placeholder:text-primary placeholder:font-antic placeholder:font-bold xl:mt-6"
             placeholder="Nome"
             name="name"
             required
@@ -33,7 +33,7 @@ const ContactForm = () => {
           <input
             type="email"
             id="email"
-            className="bg-transparent block border-b border-b-secondary w-full pl-2 pb-2 mb-2 text-primary focus:outline-none placeholder:text-primary placeholder:font-antic placeholder:font-bold xl:mt-6"
+            className="bg-transparent block border-b border-b-secondary w-full pl-2 pb-2 mb-2 text-primary focus:outline-none placeholder:text-primary placeholder:font-antic placeholder:font-bold xl:mt-4"
             placeholder="Email"
             name="email"
             required
