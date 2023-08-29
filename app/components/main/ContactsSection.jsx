@@ -17,13 +17,6 @@ const ContactsSection = () => {
         <ContactForm />
         <div className="hidden md:block md:w-[2px] md:bg-black "></div>
         <Map />
-        {/* <Map  />
-        <mappa
-          apiKey="AIzaSyBDTAB59SFOlgkJaMX-bZi4UOv0W57MQ2w"
-          defaultZoom={0}
-          defaultCenter={{ lat: 40.664308083616376, lng: 14.79541933889615 }}
-          defaultOptions={{ disableDefaultUI: true }}
-        /> */}
       </div>
     </section>
   );

@@ -2,7 +2,7 @@
   @apply fixed pt-8 z-30 w-full duration-[10ms];
 
   &_wrapper {
-    @apply w-4/5 flex justify-between items-center mx-auto;
+    @apply w-4/5 flex justify-between items-center mx-auto xl:w-[75%];
 
     &_logo {
       @apply h-12 w-12 relative;
