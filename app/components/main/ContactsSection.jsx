@@ -13,11 +13,20 @@ const ContactsSection = () => {
       className="py-8 bg-contactsSectionBg bg-cover bg-right md:py-16"
       id="contacts"
     >
-      <div className="flex flex-col md:flex-row md:w-4/5 md:mx-auto md:gap-0">
+      <div className="flex flex-col md:flex-row w-4/5 mx-auto">
         <ContactForm />
         <Map />
       </div>
     </section>
+    // <section
+    //   className="py-8 bg-contactsSectionBg bg-cover bg-right md:py-16"
+    //   id="contacts"
+    // >
+    //   <div className="flex flex-col md:flex-row w-4/5 mx-auto md:gap-0">
+    //     <ContactForm />
+    //     <Map />
+    //   </div>
+    // </section>
   );
 };
 
