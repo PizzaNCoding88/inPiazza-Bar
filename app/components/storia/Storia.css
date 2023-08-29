@@ -3,5 +3,5 @@
 }
 
 .about-us__img-container {
-  @apply aspect-4/5 h-80  relative sm:aspect-square sm:h-[35rem];
+  @apply aspect-4/5  h-80  relative mx-auto sm:aspect-square sm:h-[35rem];
 }

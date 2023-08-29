@@ -38,21 +38,35 @@ const Card = () => {
         return (
           <>
             <div
-              className={`flex flex-col items-center mt-12 sm:w-4/5 sm:mx-auto ${
-                i % 2 === 0 ? "sm:items-start" : "sm:items-end"
-              }`}
+              className={`flex flex-col items-center mt-12 sm:w-4/5 sm:mx-auto md:flex-row md:gap-6 md:items-center  ${
+                i % 2 === 0
+                  ? "sm:items-start "
+                  : "sm:items-end md:flex-row-reverse"
+              } ${i === 0 ? "" : "md:mt-9"}`}
             >
-              <div className="w-full relative h-64 aspect-video">
+              <div className="w-full relative h-64 aspect-video md:h-52 lg:h-80">
                 <Image
                   alt={c.alt}
                   src={c.link}
                   style={{ objectFit: "cover" }}
-                  fill="true"
+                  fill={true}
                   className="rounded-tr-[0.4rem] rounded-bl-[0.4rem] rounded-tl-3xl rounded-br-3xl"
                 />
               </div>
-              <h2 className="mt-4 text-2xl">{c.title}</h2>
-              <p className="mt-2 text-lg text-center">{c.subtitle}</p>
+              <div
+                className={`text-center ${
+                  i % 2 === 0
+                    ? "sm:text-left md:text-right"
+                    : "sm:text-right md:text-left"
+                }`}
+              >
+                <h2 className="mt-4 text-2xl md:text-3xl lg:text-4xl">
+                  {c.title}
+                </h2>
+                <p className="mt-2 md:text-xl md:pt-2 lg:text-2xl">
+                  {c.subtitle}
+                </p>
+              </div>
             </div>
           </>
         );
