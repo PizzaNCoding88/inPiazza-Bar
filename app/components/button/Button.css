@@ -20,7 +20,7 @@
 }
 
 .cta {
-  @apply sm:w-[45%];
+  @apply sm:w-[40%];
 }
 
 .link:focus,
