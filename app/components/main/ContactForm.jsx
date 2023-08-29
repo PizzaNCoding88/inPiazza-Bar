@@ -5,7 +5,7 @@ const ContactForm = () => {
     <>
       <form
         //   onSubmit={onSubmit}
-        className="bg-form w-4/5 mx-auto rounded-tr-lg rounded-tl-lg px-8 py-8 shadow-3xl sm:max-w-[40rem] md:rounded-tr-none md:rounded-bl-lg lg:max-w-[50%]"
+        className="bg-form w-4/5 mx-auto rounded-tr-lg rounded-tl-lg px-8 py-8 shadow-3xl sm:max-w-[40rem] md:rounded-tr-none md:rounded-bl-lg lg:max-w-[50%] xl:py-28"
       >
         <h3 className="text-center text-primary font-bold text-xl md:text-2xl lg:mt-0 sm:px-0 xl:text-3xl font-PrimaryF lg:font-SecondaryF">
           Inviaci un messaggio
