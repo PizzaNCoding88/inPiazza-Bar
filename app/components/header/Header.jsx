@@ -44,7 +44,11 @@ const Header = () => {
           scroll < headerHeight
             ? "transition-all duration-100"
             : "opacity-0 transition-all duration-100"
-        } ${router != "/" ? "h-[7rem] bg-headerBG static bg-auto" : ""}`}
+        } ${
+          router != "/"
+            ? " bg-gradient-to-r from-secondary to-slate-700 static bg-auto"
+            : ""
+        }`}
       >
         <div className="header_wrapper">
           <Logo />

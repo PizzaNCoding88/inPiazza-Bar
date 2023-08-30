@@ -1,5 +1,5 @@
 .header {
-  @apply fixed pt-8 z-30 w-full duration-[10ms];
+  @apply fixed py-4 z-30 w-full duration-[10ms];
 
   &_wrapper {
     @apply w-4/5 flex justify-between items-center mx-auto xl:w-[75%];

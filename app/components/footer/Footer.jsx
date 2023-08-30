@@ -64,7 +64,7 @@ const Footer = () => {
               </Link>
               <Link target="_blank" href="http://www.umbertonardiello.com">
                 <p className="border-b-[1px] border-b-solid border-b-tertiary pb-1 inline border-opacity-50 xl:text-lg">
-                  Made by Umberto Nardiello
+                  Website by Umberto Nardiello
                 </p>
               </Link>
             </div>
