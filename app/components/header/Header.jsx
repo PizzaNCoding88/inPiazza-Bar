@@ -46,7 +46,7 @@ const Header = () => {
             : "opacity-0 transition-all duration-100"
         } ${
           router != "/"
-            ? " bg-gradient-to-r from-secondary to-slate-700 static bg-auto"
+            ? " bg-gradient-to-r from-secondary to-slate-600 static bg-auto"
             : ""
         }`}
       >
