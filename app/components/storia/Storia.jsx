@@ -44,7 +44,7 @@ const Storia = () => {
               <div className="about-us__img-container">
                 <Image
                   src={cocktail}
-                  alt="opening pic"
+                  alt="cocktail pic"
                   objectFit="cover"
                   fill="true"
                   className="rounded-tr-[0.4rem] rounded-bl-[0.4rem] rounded-tl-3xl rounded-br-3xl w-full h-full"
@@ -70,7 +70,7 @@ const Storia = () => {
               <div className="about-us__img-container">
                 <Image
                   src={champagne}
-                  alt="opening pic"
+                  alt="chamapgne pourign pic"
                   objectFit="cover"
                   fill="true"
                   className="rounded-tr-[0.4rem] rounded-bl-[0.4rem] rounded-tl-3xl rounded-br-3xl w-full h-full"
@@ -95,7 +95,7 @@ const Storia = () => {
               <div className="about-us__img-container">
                 <Image
                   src={window}
-                  alt="opening pic"
+                  alt="outside pic"
                   objectFit="cover"
                   fill="true"
                   className="rounded-tr-[0.4rem] rounded-bl-[0.4rem] rounded-tl-3xl rounded-br-3xl w-full h-full"

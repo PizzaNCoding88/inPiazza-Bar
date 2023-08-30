@@ -13,21 +13,13 @@ const ContactsSection = () => {
       className="py-8 bg-contactsSectionBg bg-cover bg-right md:py-16"
       id="contacts"
     >
-      <div className="flex flex-col md:flex-row w-4/5 mx-auto">
+      <div className="flex flex-col md:flex-row w-4/5 mx-auto shadow-[0_0_10px_2px_rgba(200,200,200,1)]  rounded-lg  ">
         <ContactForm />
         <Map />
       </div>
     </section>
-    // <section
-    //   className="py-8 bg-contactsSectionBg bg-cover bg-right md:py-16"
-    //   id="contacts"
-    // >
-    //   <div className="flex flex-col md:flex-row w-4/5 mx-auto md:gap-0">
-    //     <ContactForm />
-    //     <Map />
-    //   </div>
-    // </section>
   );
 };
 
 export default ContactsSection;
+// shadow-[0_0_15px_8px_rgba(255,255,255,0.5),0_0_30px_10px_rgba(0,0,0,0.3)]
