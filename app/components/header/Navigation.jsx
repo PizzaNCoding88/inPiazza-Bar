@@ -21,7 +21,7 @@ const Navigation = () => {
   ];
   return (
     <>
-      <ul className="md:flex gap-10 text-xl font-antic text-form hidden md:inlin">
+      <ul className="md:flex gap-10 text-xl font-antic text-form hidden xl:text-2xl">
         {listItems.map((li) => {
           return (
             <Link key={li.id} href={li.href}>

@@ -28,7 +28,7 @@ const Storia = () => {
                   className="rounded-tr-[0.4rem] rounded-bl-[0.4rem] rounded-tl-3xl rounded-br-3xl w-full h-full "
                 />
               </div>
-              <p className="text-xl mt-6 lg:text-2xl">
+              <p className="text-xl mt-6 lg:text-2xl xl:text-3xl">
                 Benvenuti ad In Piazza, il nostro bar, champagneria e cocktail
                 lounge! <br /> <br />
                 Siamo due amici che, dopo anni di duro lavoro, sacrifici e
@@ -44,13 +44,13 @@ const Storia = () => {
               <div className="about-us__img-container">
                 <Image
                   src={cocktail}
-                  alt="opening pic"
+                  alt="cocktail pic"
                   objectFit="cover"
                   fill="true"
                   className="rounded-tr-[0.4rem] rounded-bl-[0.4rem] rounded-tl-3xl rounded-br-3xl w-full h-full"
                 />
               </div>
-              <p className="text-xl">
+              <p className="text-xl xl:text-3xl">
                 I nostri cocktail sono studiati attentamente, utilizzando solo
                 gli ingredienti più freschi e di prima qualità. Ogni drink è una
                 creazione originale, ideata per stupire e soddisfare i gusti più
@@ -70,13 +70,13 @@ const Storia = () => {
               <div className="about-us__img-container">
                 <Image
                   src={champagne}
-                  alt="opening pic"
+                  alt="chamapgne pourign pic"
                   objectFit="cover"
                   fill="true"
                   className="rounded-tr-[0.4rem] rounded-bl-[0.4rem] rounded-tl-3xl rounded-br-3xl w-full h-full"
                 />
               </div>
-              <p className="text-xl">
+              <p className="text-xl xl:text-3xl">
                 Ma la nostra offerta non si limita solo ai cocktail. Siamo anche
                 appassionati di champagne e vini pregiati.
                 <br /> <br />
@@ -95,13 +95,13 @@ const Storia = () => {
               <div className="about-us__img-container">
                 <Image
                   src={window}
-                  alt="opening pic"
+                  alt="outside pic"
                   objectFit="cover"
                   fill="true"
                   className="rounded-tr-[0.4rem] rounded-bl-[0.4rem] rounded-tl-3xl rounded-br-3xl w-full h-full"
                 />
               </div>
-              <p className="text-xl">
+              <p className="text-xl xl:text-3xl">
                 Il nostro locale è un&apos;oasi di relax e divertimento, un
                 luogo in cui potrete trascorrere piacevoli serate in compagnia
                 di amici o familiari. <br />
@@ -116,7 +116,7 @@ const Storia = () => {
 
         <section className="bg-form">
           <div className="storia_container text-black">
-            <p className="text-xl">
+            <p className="text-xl xl:text-3xl">
               Vi aspettiamo nel nostro bar, champagneria e cocktail lounge per
               farvi vivere esperienze uniche e indimenticabili. I nostri drink,
               la nostra selezione di champagne e la nostra ospitalità vi

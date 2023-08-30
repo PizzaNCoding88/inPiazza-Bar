@@ -44,7 +44,7 @@ const Card = () => {
                   : "sm:items-end md:flex-row-reverse"
               } ${i === 0 ? "" : "md:mt-9"}`}
             >
-              <div className="w-full relative h-64 aspect-video md:h-52 lg:h-80">
+              <div className="w-full relative h-64 aspect-video md:h-52 lg:h-80 xl:h-[28rem]">
                 <Image
                   alt={c.alt}
                   src={c.link}
@@ -60,10 +60,10 @@ const Card = () => {
                     : "sm:text-right md:text-left"
                 }`}
               >
-                <h2 className="mt-4 text-2xl md:text-3xl lg:text-4xl">
+                <h2 className="mt-4 text-2xl md:text-3xl lg:text-4xl xl:text-5xl">
                   {c.title}
                 </h2>
-                <p className="mt-2 md:text-xl md:pt-2 lg:text-2xl">
+                <p className="mt-2 md:text-xl md:pt-2 lg:text-2xl xl:text-3xl">
                   {c.subtitle}
                 </p>
               </div>

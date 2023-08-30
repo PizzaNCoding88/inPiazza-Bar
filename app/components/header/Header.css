@@ -1,11 +1,11 @@
 .header {
-  @apply fixed pt-8 z-30 w-full duration-[10ms];
+  @apply fixed py-4 z-30 w-full duration-[10ms];
 
   &_wrapper {
-    @apply w-4/5 flex justify-between items-center mx-auto;
+    @apply w-4/5 flex justify-between items-center mx-auto xl:w-[75%];
 
     &_logo {
-      @apply h-12 w-12 relative;
+      @apply h-12 w-12 relative xl:w-16 xl:h-16;
 
       &_image {
         @apply w-full object-contain rounded-full;

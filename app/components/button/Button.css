@@ -1,12 +1,12 @@
 .btn {
-  @apply w-full py-3 mx-auto text-xl cursor-pointer font-americana rounded-tr-[0.2rem] rounded-bl-[0.2rem] rounded-tl-2xl rounded-br-2xl;
+  @apply w-full py-3 mx-auto text-xl cursor-pointer font-americana rounded-tr-[0.2rem] rounded-bl-[0.2rem] rounded-tl-2xl rounded-br-2xl lg:text-2xl;
 
   &_primary {
-    @apply bg-secondary;
+    @apply bg-secondary lg:h-16;
   }
 
   &_secondary {
-    @apply border-primary border-2;
+    @apply border-primary border-2 lg:h-16;
   }
 
   &_sidebar {
@@ -20,7 +20,7 @@
 }
 
 .cta {
-  @apply sm:w-[45%];
+  @apply sm:w-[40%];
 }
 
 .link:focus,

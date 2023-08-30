@@ -18,15 +18,15 @@
   }
 
   &_hero-header {
-    @apply absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-full bg-customGrey bg-opacity-60 w-4/5 text-center py-10 z-10 rounded-tr-md rounded-bl-md rounded-tl-[3rem] rounded-br-[3rem] sm:max-w-[70%] sm:mt-8 md:mt-24 md:py-14;
+    @apply absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-full bg-customGrey bg-opacity-60 w-4/5 text-center py-10 z-10 rounded-tr-md rounded-bl-md rounded-tl-[3rem] rounded-br-[3rem] sm:max-w-[70%] sm:mt-8 md:mt-24 md:py-14 xl:max-w-[60%];
   }
 
   &_hero-header_h1 {
-    @apply font-americana uppercase text-5xl drop-shadow-heroShadow text-primary stroke sm:text-6xl md:text-8xl;
+    @apply font-americana uppercase text-5xl drop-shadow-heroShadow text-primary stroke sm:text-6xl md:text-8xl xl:text-9xl;
   }
 
   &_hero-header_p {
-    @apply text-3xl mt-3 font-neon drop-shadow-heroShadow text-primary stroke1 sm:text-4xl md:text-5xl;
+    @apply text-3xl mt-3 font-neon drop-shadow-heroShadow text-primary stroke1 sm:text-4xl md:text-5xl xl:text-6xl;
   }
 
   &_hero_cta {
@@ -42,6 +42,6 @@
   @apply bg-gradient-to-r from-[rgba(161,114,103,100%)] via-[rgba(139,99,89,51%)] to-[rgba(30,30,30,90%)] font-antic py-8 px-6;
 
   &_h1 {
-    @apply text-center text-2xl md:text-4xl [text-shadow:_0_6px_4px_rgba(255_255_255_/_50%)];
+    @apply text-center text-2xl md:text-4xl [text-shadow:_0_6px_4px_rgba(255_255_255_/_50%)] xl:text-6xl;
   }
 }

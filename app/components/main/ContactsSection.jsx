@@ -13,20 +13,13 @@ const ContactsSection = () => {
       className="py-8 bg-contactsSectionBg bg-cover bg-right md:py-16"
       id="contacts"
     >
-      <div className="flex flex-col md:flex-row md:w-4/5 md:mx-auto md:gap-0">
+      <div className="flex flex-col md:flex-row w-4/5 mx-auto shadow-[0_0_10px_2px_rgba(200,200,200,1)] rounded-lg  ">
         <ContactForm />
-        <div className="hidden md:block md:w-[2px] md:bg-black "></div>
         <Map />
-        {/* <Map  />
-        <mappa
-          apiKey="AIzaSyBDTAB59SFOlgkJaMX-bZi4UOv0W57MQ2w"
-          defaultZoom={0}
-          defaultCenter={{ lat: 40.664308083616376, lng: 14.79541933889615 }}
-          defaultOptions={{ disableDefaultUI: true }}
-        /> */}
       </div>
     </section>
   );
 };
 
 export default ContactsSection;
+// shadow-[0_0_15px_8px_rgba(255,255,255,0.5),0_0_30px_10px_rgba(0,0,0,0.3)]
