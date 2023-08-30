@@ -22,4 +22,3 @@ const ContactsSection = () => {
 };
 
 export default ContactsSection;
-// shadow-[0_0_15px_8px_rgba(255,255,255,0.5),0_0_30px_10px_rgba(0,0,0,0.3)]
