@@ -9,11 +9,8 @@ const ContactsSection = () => {
     lng: 14.79541933889615,
   };
   return (
-    <section
-      className="py-8 bg-contactsSectionBg bg-cover bg-right md:py-16"
-      id="contacts"
-    >
-      <div className="flex flex-col md:flex-row w-4/5 mx-auto shadow-[0_0_10px_2px_rgba(200,200,200,1)] rounded-lg  ">
+    <section className="contacts-section" id="contacts">
+      <div className="contacts-section_container">
         <ContactForm />
         <Map />
       </div>
