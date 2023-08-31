@@ -36,11 +36,7 @@ const ContactForm = () => {
               placeholder="Message"
             ></textarea>
           </label>
-          <input
-            type="submit"
-            className="contacts-section_form_content_submit-input"
-            aria-label="submit"
-          />
+          <input type="submit" className="submit-input" aria-label="submit" />
           <span className=" text-primary mx-auto text-center block">
             {/* RESULT HERE */}
           </span>

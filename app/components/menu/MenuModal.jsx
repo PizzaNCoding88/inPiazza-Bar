@@ -7,7 +7,7 @@ const MenuModal = (props) => {
   return (
     <>
       <motion.div
-        className="lg:py-8 lg:absolute lg:flex lg:items-center lg:justify-center lg:top-0  lg:left-0 lg:right-0 lg:bg-slate-600 z-50"
+        className="modal-bg"
         initial={{
           opacity: 0,
         }}
@@ -25,7 +25,6 @@ const MenuModal = (props) => {
           },
         }}
       >
-        {/* <AnimatePresence> */}
         <motion.div
           className="lg:h-[90%] lg:w-1/2"
           initial={{
@@ -52,7 +51,6 @@ const MenuModal = (props) => {
         >
           <Image src={src} alt="modal-pic" style={{ objectFit: "cover" }} />
         </motion.div>
-        {/* </AnimatePresence> */}
       </motion.div>
     </>
   );

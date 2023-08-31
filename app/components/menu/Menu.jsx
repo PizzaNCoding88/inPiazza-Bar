@@ -15,7 +15,7 @@ const Menu = (props) => {
   }
   return (
     <>
-      <picture className="py-4 sm:w-4/5 sm:mx-auto lg:py-0 lg:w-full ">
+      <picture className="menu-page-pics">
         <button onClick={openModal}>
           <Image src={src} alt="menu" style={{ objectFit: "cover" }} />
           <AnimatePresence>

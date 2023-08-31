@@ -103,8 +103,8 @@
         @apply bg-transparent border-b border-b-secondary w-full pl-2 pb-2 text-primary focus:outline-none placeholder:text-primary placeholder:font-antic placeholder:font-bold sm:placeholder:text-xl md:placeholder:text-base lg:placeholder:text-xl xl:placeholder:text-2xl;
       }
 
-      &_submit-input {
-        @apply text-primary bg-transparent border-2 border-secondary pl-8 py-1 rounded-lg block mx-auto hover:bg-secondary 
+      .submit-input {
+        @apply text-primary bg-transparent border-2 border-secondary px-8 py-1 rounded-lg block mx-auto hover:bg-secondary 
         transition-all duration-150 font-antic xl:mt-12 sm:text-xl md:text-base lg:text-xl xl:text-2xl !w-auto;
       }
     }

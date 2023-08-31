@@ -9,7 +9,7 @@ import Vini from "../../../public/assets/menu-vini-1.webp";
 import Food from "../../../public/assets/menu-gastronomia.webp";
 import Menu from "./Menu.jsx";
 import { useState } from "react";
-import MenuModal from "./MenuModal";
+import "./Menu.css";
 
 const DrinksMenu = () => {
   const [isOpen, setIsOpen] = useState(false);
@@ -27,7 +27,7 @@ const DrinksMenu = () => {
           <Menu src={Liquori} />
           <Menu src={Vini} />
         </div>
-        <div className="lg:flex lg:gap-4 px-4 lg:h-screen lg:items-center">
+        <div className="large-screens-container">
           <Menu src={Food} />
           <Menu src={Cocktails} id="cocktails" />
           <Menu src={LiquoriChampagne} />
