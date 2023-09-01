@@ -1,6 +1,6 @@
 .prenotazioni_container {
   @apply w-4/5 mx-auto text-black py-8 text-2xl uppercase text-center;
   h1 {
-    @apply xl:leading-[4rem] text-4xl;
+    @apply xl:leading-[4rem] lg:text-4xl;
   }
 }
