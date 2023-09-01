@@ -21,7 +21,7 @@ const Navigation = () => {
   ];
   return (
     <>
-      <ul>
+      <ul className="navbar__desktop-ul">
         {listItems.map((li) => {
           return (
             <Link key={li.id} href={li.href}>

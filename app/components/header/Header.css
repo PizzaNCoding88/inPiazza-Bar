@@ -40,12 +40,11 @@
       @apply font-antic flex flex-col gap-16 text-center text-lg;
     }
   }
+}
+.navbar__desktop-ul {
+  @apply md:flex gap-10 text-xl font-antic text-form hidden xl:text-2xl;
 
-  nav ul {
-    @apply md:flex gap-10 text-xl font-antic text-form hidden xl:text-2xl;
-
-    li {
-      @apply lg:pt-0;
-    }
+  li {
+    @apply lg:pt-0;
   }
 }
