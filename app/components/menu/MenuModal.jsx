@@ -1,13 +1,13 @@
 import Image from "next/image";
 import React from "react";
-import { AnimatePresence, motion } from "framer-motion";
+import { motion } from "framer-motion";
 
 const MenuModal = (props) => {
   const { src, status } = props;
   return (
     <>
       <motion.div
-        className="modal-bg"
+        className="lg:py-8 lg:absolute lg:flex lg:items-center lg:justify-center lg:top-0 lg:left-0 lg:right-0 lg:bg-gradient-to-r lg:from-secondary lg:to-slate-600 static z-50"
         initial={{
           opacity: 0,
         }}
