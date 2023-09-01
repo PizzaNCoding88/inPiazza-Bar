@@ -26,10 +26,10 @@ const Footer = () => {
           </div>
           <div className="footer_content">
             <div className="footer_content_social">
-              <Link href={facebook}>
+              <Link href={facebook} target="_blank">
                 <Image alt="facebook" src={facebookIco} className="h-14 w-14" />
               </Link>
-              <Link href={instagram}>
+              <Link href={instagram} target="_blank">
                 <Image
                   alt="instagram"
                   src={instagramIco}
