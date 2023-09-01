@@ -16,24 +16,6 @@ const Header = () => {
     });
   });
 
-  // const handleScroll = () => {
-  //   const currentScrollPos = window.scrollY;
-
-  //   // if (currentScrollPos > prevScrollPos) {
-  //   //   setVisible(false);
-  //   // } else {
-  //   //   setVisible(true);
-  //   // }
-
-  //   setPrevScrollPos(currentScrollPos);
-  // };
-
-  // useEffect(() => {
-  //   window.addEventListener("scroll", handleScroll);
-
-  //   return () => window.removeEventListener("scroll", handleScroll);
-  // });
-
   const router = usePathname();
 
   const headerHeight = 30;
