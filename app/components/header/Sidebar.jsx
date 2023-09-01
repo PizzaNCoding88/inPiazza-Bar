@@ -29,8 +29,6 @@ const Sidebar = (props) => {
     },
   ];
 
-  const liArrLenght = Object.values(listItems).length;
-
   return (
     <>
       <AnimatePresence>
@@ -66,22 +64,6 @@ const Sidebar = (props) => {
                       {item.icon}
                       {item.name}
                     </Link>
-
-                    {/* {item.id === liArrLenght - 1 ? (
-                      <Button
-                        text="Prenotazioni"
-                        link="/prenotazioni"
-                        style="sidebar"
-                      />
-                    ) : (
-                      <Link
-                        href={item.href}
-                        className="flex items-center gap-8"
-                      >
-                        {item.icon}
-                        {item.name}
-                      </Link>
-                    )} */}
                   </li>
                 );
               })}

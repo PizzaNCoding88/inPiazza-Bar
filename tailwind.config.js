@@ -22,7 +22,7 @@ module.exports = {
       },
       backgroundImage: {
         menuSectionBg: "url('../../../public/assets/dessert1.webp')",
-        contactsSectionBg: "url('../public/assets/interno.webp')",
+        contactsSectionBg: "url('../../../public/assets/interno.webp')",
         footerBg: "url('../../../public/assets/footerbg.webp')",
         headerBG: "url('../public/assets/headerbg.jpg')",
         headerBGg: "url('../../../public/assets/headerbg.jpg')",

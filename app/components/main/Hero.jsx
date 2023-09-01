@@ -31,7 +31,7 @@ const Hero = () => {
             <Image
               src={downIcon}
               alt="double down arrow icon"
-              className="h-6 w-6 animate-bounce lg:h-8 lg:w-8"
+              className="section_arrows_img"
             />
           </a>
         </div>

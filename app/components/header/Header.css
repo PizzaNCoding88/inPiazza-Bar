@@ -41,3 +41,10 @@
     }
   }
 }
+.navbar__desktop-ul {
+  @apply md:flex gap-10 text-xl font-antic text-form hidden xl:text-2xl;
+
+  li {
+    @apply lg:pt-0;
+  }
+}
