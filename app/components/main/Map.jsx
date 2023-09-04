@@ -36,11 +36,11 @@ import { useMemo } from "react";
 
 const Map = () => {
   const { isLoaded } = useLoadScript({
-    googleMapsApiKey: process.env.NEXT_PUBLIC_GOOGLE_MAPS_API_KEY,
+    googleMapsApiKey: "AIzaSyBDTAB59SFOlgkJaMX - bZi4UOv0W57MQ2w",
   });
 
   const center = useMemo(
-    () => ({ lat: 40.66429994536494, lng: 14.795430068234584 }),
+    () => ({ lat: 40.664188385009766, lng: 14.795440673828125 }),
     []
   );
 
@@ -70,7 +70,7 @@ const Map = () => {
             mapContainerClassName="map-container"
           >
             <Marker
-              position={{ lat: 40.66429994536494, lng: 14.795430068234584 }}
+              position={{ lat: 40.664188385009766, lng: 14.795440673828125 }}
             />
           </GoogleMap>
         </div>

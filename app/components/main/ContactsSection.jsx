@@ -5,8 +5,8 @@ import Map from "./Map";
 const ContactsSection = () => {
   const location = {
     address: "Via Posidonia, 409, 84129 Salerno SA, Italy",
-    lat: 40.664308083616376,
-    lng: 14.79541933889615,
+    lat: 40.66418448374763,
+    lng: 14.795443478778227,
   };
   return (
     <section className="contacts-section" id="contacts">
