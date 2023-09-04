@@ -12,7 +12,7 @@ const Main = () => {
       <motion.main
         initial={{ opacity: 0 }}
         animate={{ opacity: 1 }}
-        transition={{ duration: 1.5 }}
+        transition={{ duration: 1.5, ease: "easeOut" }}
       >
         <Hero />
         <ImageSection />

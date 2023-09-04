@@ -23,7 +23,7 @@ const DrinksMenu = () => {
       <motion.section
         initial={{ opacity: 0 }}
         animate={{ opacity: 1 }}
-        transition={{ duration: 1.8 }}
+        transition={{ duration: 1.8, ease: "easeOut" }}
       >
         <div className="lg:hidden">
           <Menu src={Food} />

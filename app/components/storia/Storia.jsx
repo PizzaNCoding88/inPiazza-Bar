@@ -16,7 +16,7 @@ const Storia = () => {
         className="font-antic"
         initial={{ opacity: 0 }}
         animate={{ opacity: 1 }}
-        transition={{ duration: 1.8 }}
+        transition={{ duration: 1.8, ease: "easeOut" }}
       >
         <section>
           <div className="storia_container text-black">

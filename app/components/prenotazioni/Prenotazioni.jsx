@@ -10,7 +10,7 @@ const prenotazioni = () => {
       <motion.main
         initial={{ opacity: 0 }}
         animate={{ opacity: 1 }}
-        transition={{ duration: 1.8 }}
+        transition={{ duration: 1.8, ease: "easeOut" }}
       >
         <section>
           <div className="prenotazioni_container">
