@@ -1,11 +1,17 @@
+"use client";
 import React from "react";
 import "./Prenotazioni.css";
 import ContactsSection from "../main/ContactsSection";
+import { motion } from "framer-motion";
 
 const prenotazioni = () => {
   return (
     <>
-      <main>
+      <motion.main
+        initial={{ opacity: 0 }}
+        animate={{ opacity: 1 }}
+        transition={{ duration: 1.8 }}
+      >
         <section>
           <div className="prenotazioni_container">
             <h1 className="font-antic">
@@ -15,7 +21,7 @@ const prenotazioni = () => {
           </div>
         </section>
         <ContactsSection />
-      </main>
+      </motion.main>
     </>
   );
 };

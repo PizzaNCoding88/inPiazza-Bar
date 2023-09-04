@@ -6,6 +6,7 @@ import Navbar from "./Navbar";
 import Logo from "./Logo";
 import { usePathname } from "next/navigation";
 import { useState, useEffect } from "react";
+import { motion } from "framer-motion";
 
 const Header = () => {
   const [scroll, setScroll] = useState(0);

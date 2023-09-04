@@ -9,6 +9,7 @@ import Vini from "../../../public/assets/menu-vini-1.webp";
 import Food from "../../../public/assets/menu-gastronomia.webp";
 import Menu from "./Menu.jsx";
 import MenuWModal from "./MenuWModal";
+import { motion } from "framer-motion";
 
 import { useState } from "react";
 
@@ -19,7 +20,11 @@ const DrinksMenu = () => {
   }
   return (
     <>
-      <section>
+      <motion.section
+        initial={{ opacity: 0 }}
+        animate={{ opacity: 1 }}
+        transition={{ duration: 1.8 }}
+      >
         <div className="lg:hidden">
           <Menu src={Food} />
           <Menu src={Cocktails} id="cocktails" />
@@ -36,7 +41,7 @@ const DrinksMenu = () => {
           <MenuWModal src={Liquori} />
           <MenuWModal src={Vini} />
         </div>
-      </section>
+      </motion.section>
     </>
   );
 };

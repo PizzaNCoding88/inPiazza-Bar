@@ -12,7 +12,12 @@ import { motion } from "framer-motion";
 const Storia = () => {
   return (
     <>
-      <main className="font-antic">
+      <motion.main
+        className="font-antic"
+        initial={{ opacity: 0 }}
+        animate={{ opacity: 1 }}
+        transition={{ duration: 1.8 }}
+      >
         <section>
           <div className="storia_container text-black">
             <h1 className="text-5xl font-medium [text-shadow:_4px_4px_10px_rgba(0,0,0,0.8)] ">
@@ -125,7 +130,7 @@ const Storia = () => {
             </p>
           </div>
         </section>
-      </main>
+      </motion.main>
     </>
   );
 };
