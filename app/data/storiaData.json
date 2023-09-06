@@ -9,21 +9,21 @@
   {
     "id" : "1",
     "alt" : "cocktail pic",
-    "src": "/../public/assets/cocktail1.webp",
+    "src": "/assets/cocktail1.webp",
     "paragraph1" : "I nostri cocktail sono studiati attentamente, utilizzando solo drink è una gusti più raffinati.",
     "paragraph2": "nostre creazioni inedite, le nostre bevande sono pensate per sorprendere e deliziare ogni vostro palato."
   },
   {
     "id" : "2",
     "alt" : "champagne pouring pic",
-    "src": "/../public/assets/champagne.webp",
+    "src": "/assets/champagne.webp",
     "paragraph1" : "Ma la nostra offerta non si limita solo ai cocktail. Siamo anche appassionati di champagne e vini pregiati.",
     "paragraph2": "vini una vasta nostri piatti e alle vostre preferenze."
   },
   {
     "id" : "3",
     "alt" : "opening pic",
-    "src": "/../public/assets/window.webp",
+    "src": "/assets/window.webp",
     "paragraph1" : "Il nostro locale è un'oasi di relax e divertimento, un compagnia di amici o familiari.",
     "paragraph2" : "creare contemporanea, in cui potrete sentirvi a vostro agio."
   }
