@@ -36,7 +36,7 @@ const Storia = () => {
                   >
                     <div className="about-us__img-container">
                       <Image
-                        src="/../public/assets/apertura.webp"
+                        src={data.src}
                         alt={data.alt}
                         objectFit="cover"
                         fill="true"
