@@ -1,0 +1,32 @@
+[
+  {
+    "id" : "0",
+    "src": "/../public/assets/apertura.webp",
+    "alt" : "opening pic",
+    "paragraph1" : "Benvenuti ad In Piazza, il nostro bar, champagneria e cocktail lounge!",
+    "paragraph2" : "Siamo due amici che, dopo anni di duro lavoro, sacrifici e sogni, abbiamo finalmente deciso di realizzare il nostro sogno aprendo un bar che offrisse esperienze uniche e indimenticabili."
+  },
+  {
+    "id" : "1",
+    "alt" : "cocktail pic",
+    "src": "/../public/assets/cocktail1.webp",
+    "paragraph1" : "I nostri cocktail sono studiati attentamente, utilizzando solo drink è una gusti più raffinati.",
+    "paragraph2": "nostre creazioni inedite, le nostre bevande sono pensate per sorprendere e deliziare ogni vostro palato."
+  },
+  {
+    "id" : "2",
+    "alt" : "champagne pouring pic",
+    "src": "/../public/assets/champagne.webp",
+    "paragraph1" : "Ma la nostra offerta non si limita solo ai cocktail. Siamo anche appassionati di champagne e vini pregiati.",
+    "paragraph2": "vini una vasta nostri piatti e alle vostre preferenze."
+  },
+  {
+    "id" : "3",
+    "alt" : "opening pic",
+    "src": "/../public/assets/window.webp",
+    "paragraph1" : "Il nostro locale è un'oasi di relax e divertimento, un compagnia di amici o familiari.",
+    "paragraph2" : "creare contemporanea, in cui potrete sentirvi a vostro agio."
+  }
+  
+  
+]
