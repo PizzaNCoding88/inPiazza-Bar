@@ -19,7 +19,7 @@ const Storia = () => {
         animate={{ opacity: 1 }}
         transition={{ duration: 1.8, ease: "easeOut" }}
       >
-        <h1 className="text-5xl font-medium [text-shadow:_4px_4px_10px_rgba(0,0,0,0.8)] text-black text-center pt-10 bg-form">
+        <h1 className="text-5xl font-medium [text-shadow:_4px_4px_10px_rgba(0,0,0,0.8)] text-black text-center pt-10 bg-form mb-0">
           Chi Siamo
         </h1>
         {data.map((data) => {
