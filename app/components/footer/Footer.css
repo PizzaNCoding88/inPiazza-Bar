@@ -2,6 +2,53 @@
   @apply bg-footerBg bg-cover bg-center;
 
   &_container {
+    @apply h-full w-full bg-slate-900 bg-opacity-60 md:hidden;
+
+    &_large-screens {
+      @apply hidden md:flex md:bg-slate-900 md:bg-opacity-60 h-40 1440:h-48;
+    }
+  }
+
+  &_content {
+    @apply grid grid-cols-1 h-full w-auto mx-auto my-auto gap-6 py-8 md:flex md:w-full md:my-0 md:h-auto md:py-0 md:gap-0 1440:py-4;
+
+    &_social {
+      @apply flex gap-8 justify-center z-10;
+    }
+
+    &_directions-address {
+      @apply z-10 flex flex-col sm:flex-row sm:gap-8 sm:justify-center sm:pr-32 xl:pr-40;
+    }
+
+    &_policy-copyright {
+      @apply z-10 flex flex-col justify-center gap-2 text-tertiary text-center font-antic sm:flex-row sm:gap-8 md:pl-16;
+
+      p {
+        @apply border-b-[1px] border-b-tertiary pb-1 border-opacity-50 xl:text-lg;
+      }
+    }
+    &_left-side {
+      @apply w-1/2 h-auto  md:flex md:flex-col md:justify-between md:py-2 md:pr-2 md:items-end 1440:pr-6;
+    }
+
+    &_right-side {
+      @apply w-1/2 h-auto md:flex md:flex-col md:justify-between md:py-2 md:pl-2 md:items-start 1440:pl-6;
+    }
+  }
+
+  &_left-part-desktop {
+    @apply hidden md:w-[250px] md:bg-[#20201F] md:flex md:flex-col md:justify-center md:items-center md:gap-8 md:py-4 1440:w-[350px];
+  }
+
+  &_address-phone {
+    @apply text-tertiary md:text-sm font-antic lg:text-base 1440:text-xl;
+  }
+}
+
+/* .footer {
+  @apply bg-footerBg bg-cover bg-center;
+
+  &_container {
     @apply h-full w-full bg-slate-900 bg-opacity-60 md:flex md:flex-row md:gap-10;
   }
 
@@ -32,4 +79,4 @@
   &_address-phone {
     @apply text-tertiary text-center font-antic xl:text-lg;
   }
-}
+} */

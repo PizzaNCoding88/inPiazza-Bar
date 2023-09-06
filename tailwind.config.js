@@ -46,6 +46,9 @@ module.exports = {
       aspectRatio: {
         "4/5": "4 / 5",
       },
+      screens: {
+        1440: "1440px",
+      },
     },
   },
   plugins: [],
