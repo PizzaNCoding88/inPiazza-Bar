@@ -117,7 +117,7 @@ const Footer = () => {
                 <p className="footer_address-phone">+39 089 935 5030</p>
               </div>
               <Link target="_blank" href="http://www.umbertonardiello.com">
-                <p className="inline text-sm lg:text-base 1440:text-xl">
+                <p className="inline text-sm lg:text-base 1440:text-xl font-antic">
                   Website by Umberto Nardiello
                 </p>
               </Link>

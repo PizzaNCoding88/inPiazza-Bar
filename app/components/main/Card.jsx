@@ -65,9 +65,9 @@ const Card = () => {
                     ? "images-section_text-container-right"
                     : "images-section_text-container-left"
                 }`}
-                initial={{ x: `${i % 2 === 0 ? "30%" : "-30%"}`, opacity: 0 }}
+                initial={{ x: `${i % 2 === 0 ? "20%" : "-20%"}`, opacity: 0 }}
                 whileInView={{ x: 0, opacity: 1 }}
-                transition={{ duration: 1.5 }}
+                transition={{ duration: 1, ease: "easeOut" }}
                 viewport={{ once: true }}
               >
                 <h2 className="mt-4 text-2xl md:text-3xl lg:text-4xl xl:text-5xl">
