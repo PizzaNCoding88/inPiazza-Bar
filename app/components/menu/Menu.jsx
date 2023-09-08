@@ -5,7 +5,7 @@ const Menu = (props) => {
   const { src } = props;
   return (
     <>
-      <picture className="py-4 sm:w-4/5 sm:mx-auto lg:py-0 lg:w-full ">
+      <picture className="menu-page-pics">
         <Image src={src} alt="menu" style={{ objectFit: "cover" }} />
       </picture>
     </>

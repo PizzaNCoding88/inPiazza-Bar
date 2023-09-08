@@ -1,7 +1,27 @@
 .storia_container {
   @apply w-4/5 mx-auto text-center flex flex-col gap-6 py-6 xl:gap-10 xl:py-10;
+
+  &_card {
+    @apply lg:flex lg:flex-row lg:items-center gap-8;
+  }
 }
 
 .about-us__img-container {
   @apply aspect-4/5  h-80  relative mx-auto sm:aspect-square sm:h-[35rem];
+
+  img {
+    @apply rounded-tr-[0.4rem] rounded-bl-[0.4rem] rounded-tl-3xl rounded-br-3xl w-full h-full;
+  }
+}
+
+.header_storia {
+  @apply text-5xl font-medium [text-shadow:_4px_4px_10px_rgba(0,0,0,0.8)] text-black text-center pt-10 bg-form mb-0;
+}
+
+.about-us_paragraph {
+  @apply text-base mt-6 lg:text-xl xl:text-3xl;
+}
+
+.about-us_paragraph1 {
+  @apply text-base lg:text-xl xl:text-3xl;
 }

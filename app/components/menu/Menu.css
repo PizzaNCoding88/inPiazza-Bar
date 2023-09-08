@@ -7,5 +7,9 @@
 }
 
 .modal-bg {
-  @apply lg:py-8 lg:absolute lg:flex lg:items-center lg:justify-center lg:top-0  lg:left-0 lg:right-0 bg-gradient-to-r from-secondary to-slate-600 z-50;
+  @apply lg:py-8 lg:absolute lg:flex lg:items-center lg:justify-center lg:top-0  lg:left-0 lg:right-0 lg:bg-gradient-to-r lg:from-secondary lg:to-slate-600 z-50;
+}
+
+.menu-container_desktops {
+  @apply lg:flex lg:gap-4 px-4 lg:h-screen lg:items-center;
 }

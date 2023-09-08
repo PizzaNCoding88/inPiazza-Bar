@@ -3,11 +3,11 @@ import React from "react";
 import { motion } from "framer-motion";
 
 const MenuModal = (props) => {
-  const { src, status } = props;
+  const { src } = props;
   return (
     <>
       <motion.div
-        className="lg:py-8 lg:absolute lg:flex lg:items-center lg:justify-center lg:top-0 lg:left-0 lg:right-0 lg:bg-gradient-to-r lg:from-secondary lg:to-slate-600 static z-50"
+        className="modal-bg"
         initial={{
           opacity: 0,
         }}

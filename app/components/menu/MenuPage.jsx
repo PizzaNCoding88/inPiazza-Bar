@@ -10,6 +10,7 @@ import Food from "../../../public/assets/menu-gastronomia.webp";
 import Menu from "./Menu.jsx";
 import MenuWModal from "./MenuWModal";
 import { motion } from "framer-motion";
+import "./Menu.css";
 
 import { useState } from "react";
 
@@ -33,7 +34,7 @@ const DrinksMenu = () => {
           <Menu src={Liquori} />
           <Menu src={Vini} />
         </div>
-        <div className="lg:flex lg:gap-4 px-4 lg:h-screen lg:items-center">
+        <div className="menu-container_desktops">
           <MenuWModal src={Food} />
           <MenuWModal src={Cocktails} id="cocktails" />
           <MenuWModal src={LiquoriChampagne} />

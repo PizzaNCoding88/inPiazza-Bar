@@ -15,9 +15,7 @@ const Storia = () => {
         animate={{ opacity: 1 }}
         transition={{ duration: 1.8, ease: "easeOut" }}
       >
-        <h1 className="text-5xl font-medium [text-shadow:_4px_4px_10px_rgba(0,0,0,0.8)] text-black text-center pt-10 bg-form mb-0">
-          Chi Siamo
-        </h1>
+        <h1 className="header_storia">Chi Siamo</h1>
         {data.map((data) => {
           return (
             <>
@@ -30,8 +28,8 @@ const Storia = () => {
                   }`}
                 >
                   <div
-                    className={`lg:flex lg:flex-row lg:items-center gap-8 ${
-                      data.id % 2 === 0 ? "" : "lg:flex-row-reverse"
+                    className={`storia_container_card ${
+                      data.id % 2 === 0 ? "" : "lg:!flex-row-reverse"
                     }`}
                   >
                     <div className="about-us__img-container">
@@ -40,17 +38,12 @@ const Storia = () => {
                         alt={data.alt}
                         objectFit="cover"
                         fill="true"
-                        className="rounded-tr-[0.4rem] rounded-bl-[0.4rem] rounded-tl-3xl rounded-br-3xl w-full h-full "
                       />
                     </div>
                     <div>
-                      <p className="text-xl mt-6 lg:text-2xl xl:text-3xl">
-                        {data.paragraph1}
-                      </p>
+                      <p className="about-us_paragraph">{data.paragraph1}</p>
                       <br></br>
-                      <p className="text-xl lg:text-2xl xl:text-3xl">
-                        {data.paragraph2}
-                      </p>
+                      <p className="about-us_paragraph1">{data.paragraph2}</p>
                     </div>
                   </div>
                 </div>
