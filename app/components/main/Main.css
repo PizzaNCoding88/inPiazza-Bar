@@ -75,6 +75,14 @@
   &_text-container-left {
     @apply sm:text-right md:text-left;
   }
+
+  &_title {
+    @apply mt-4 text-2xl md:text-3xl lg:text-4xl xl:text-5xl;
+  }
+
+  &_description {
+    @apply mt-2 md:text-xl md:pt-2 lg:text-2xl xl:text-3xl;
+  }
 }
 
 .contacts-section {
@@ -85,7 +93,7 @@
   }
 
   &_form {
-    @apply bg-form rounded-tr-lg rounded-tl-lg md:rounded-tr-none md:rounded-bl-lg aspect-square !w-full md:min-w-[50%] pt-[5%] px-10;
+    @apply bg-form rounded-tr-lg rounded-tl-lg md:rounded-tr-none md:rounded-bl-lg aspect-square !w-full md:!max-w-[50%] pt-[5%] px-10;
 
     &_content {
       @apply flex flex-col justify-between h-full;

@@ -15,20 +15,18 @@ const Burgermenu = (props) => {
         onClick={() => status()}
       >
         <span
-          className={`top-0 left-0 header_navbar_burger-menu_wrapper_span ${
-            isOpen
-              ? "opacity-0 transition-opacity duration-75"
-              : "rotate-0 translate-y-0"
+          className={`header_navbar_burger-menu_wrapper_span ${
+            isOpen ? "open" : "closed"
           }`}
         ></span>
         <span
           className={`mt-3 header_navbar_burger-menu_wrapper_span translate-x-2 ${
-            isOpen ? " opacity-0 transition-opacity duration-75" : ""
+            isOpen ? " open" : ""
           }`}
         ></span>
         <span
           className={`mt-6 header_navbar_burger-menu_wrapper_span ${
-            isOpen ? "opacity-0 transition-opacity duration-75 " : "opacity-100"
+            isOpen ? "open" : "opacity-100"
           }`}
         ></span>
       </div>

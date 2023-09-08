@@ -70,12 +70,8 @@ const Card = () => {
                 transition={{ duration: 1, ease: "easeOut" }}
                 viewport={{ once: true }}
               >
-                <h2 className="mt-4 text-2xl md:text-3xl lg:text-4xl xl:text-5xl">
-                  {c.title}
-                </h2>
-                <p className="mt-2 md:text-xl md:pt-2 lg:text-2xl xl:text-3xl">
-                  {c.subtitle}
-                </p>
+                <h2 className="images-section_title">{c.title}</h2>
+                <p className="images-section_description">{c.subtitle}</p>
               </motion.div>
             </div>
           </>

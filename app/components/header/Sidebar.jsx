@@ -68,7 +68,7 @@ const Sidebar = (props) => {
                 );
               })}
             </motion.ul>
-            <div className="absolute flex left-1/2 -translate-x-1/2 gap-8 bottom-4 text-3xl">
+            <div className="header_navbar_sidebar_socials-wrapper">
               <Link href="https://www.instagram.com/inpiazzareal?fbclid=IwAR3s_4nw5A2M_wNTpEhTgQqY5T-UJaExnIo7c5PkK-Ja5OnFifUIwB5Jqxk">
                 <CiInstagram />
               </Link>

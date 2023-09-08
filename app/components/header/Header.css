@@ -20,7 +20,7 @@
       @apply h-8 w-11 relative;
 
       &_span {
-        @apply h-[4px] w-9 bg-form rounded-full inline-block absolute transition ease-in transform duration-300;
+        @apply h-[4px] w-9 bg-form rounded-full inline-block absolute transition ease-in transform duration-300 top-0 left-0;
       }
     }
   }
@@ -39,6 +39,9 @@
     &_ul {
       @apply font-antic flex flex-col gap-16 text-center text-lg;
     }
+    &_socials-wrapper {
+      @apply absolute flex left-1/2 -translate-x-1/2 gap-8 bottom-4 text-3xl;
+    }
   }
 }
 .navbar__desktop-ul {
@@ -47,4 +50,12 @@
   li {
     @apply lg:pt-0;
   }
+}
+
+.open {
+  @apply opacity-0 transition-opacity duration-75;
+}
+
+.closed {
+  @apply rotate-0 translate-y-0;
 }
