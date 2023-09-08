@@ -81,11 +81,11 @@
   @apply py-8 bg-contactsSectionBg bg-cover bg-right md:py-16;
 
   &_container {
-    @apply flex flex-col md:flex-row w-4/5 mx-auto shadow-[0_0_10px_2px_rgba(200,200,200,1)] rounded-lg;
+    @apply flex flex-col w-4/5 mx-auto shadow-[0_0_10px_2px_rgba(200,200,200,1)] rounded-lg md:flex-row overflow-hidden;
   }
 
   &_form {
-    @apply bg-form rounded-tr-lg rounded-tl-lg md:rounded-tr-none md:rounded-bl-lg aspect-square md:min-w-[50%] pt-[5%] px-10;
+    @apply bg-form rounded-tr-lg rounded-tl-lg md:rounded-tr-none md:rounded-bl-lg aspect-square !w-full md:min-w-[50%] pt-[5%] px-10;
 
     &_content {
       @apply flex flex-col justify-between h-full;
