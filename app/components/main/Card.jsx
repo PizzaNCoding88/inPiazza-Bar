@@ -44,6 +44,7 @@ const Card = () => {
               className={`images-section_card-container ${
                 i % 2 === 0 ? "" : "odd"
               } ${i === 0 ? "" : "consecutives"}`}
+              key={i}
             >
               <motion.div
                 className="images-section_pic-container"

@@ -5,10 +5,10 @@ const ContactForm = () => {
 
   const onSubmit = async (event) => {
     event.preventDefault();
-    setResult("Sending....");
+    setResult("Invio in corso....");
     const formData = new FormData(event.target);
 
-    formData.append("access_key", "4359a0b1-14fd-4278-b15b-c45673a1d9dc");
+    formData.append("access_key", "507e3184-6d8c-4137-af8f-769527a4c40c");
 
     const res = await fetch("https://api.web3forms.com/submit", {
       method: "POST",
@@ -16,7 +16,7 @@ const ContactForm = () => {
     }).then((res) => res.json());
 
     if (res.success) {
-      setResult(res.message);
+      setResult("Messaggio inviato!");
     } else {
       setResult(res.message);
     }
