@@ -57,6 +57,7 @@ const Card = () => {
                   src={c.link}
                   style={{ objectFit: "cover" }}
                   fill={true}
+                  sizes="100%"
                 />
               </motion.div>
               <motion.div

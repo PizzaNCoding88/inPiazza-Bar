@@ -25,7 +25,7 @@ const Navigation = () => {
         {listItems.map((li) => {
           return (
             <Link key={li.id} href={li.href}>
-              <li>{li.name}</li>
+              <li key={li.id}>{li.name}</li>
             </Link>
           );
         })}
