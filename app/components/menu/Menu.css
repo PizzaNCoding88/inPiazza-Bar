@@ -11,5 +11,5 @@
 }
 
 .menu-container_desktops {
-  @apply lg:flex lg:gap-4 px-4 lg:h-screen lg:items-center;
+  @apply hidden lg:flex lg:gap-4 px-4 lg:h-screen lg:items-center;
 }
