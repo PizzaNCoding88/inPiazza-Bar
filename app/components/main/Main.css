@@ -69,11 +69,11 @@
   }
 
   &_text-container-right {
-    @apply sm:text-left md:text-right;
+    @apply sm:text-center md:text-right;
   }
 
   &_text-container-left {
-    @apply sm:text-right md:text-left;
+    @apply sm:text-center md:text-left;
   }
 
   &_title {
