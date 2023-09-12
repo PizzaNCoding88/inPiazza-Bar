@@ -4,13 +4,13 @@
     "src": "/assets/apertura.webp",
     "alt" : "opening pic",
     "paragraph1" : "Benvenuti ad In Piazza, il nostro bar, champagneria e cocktail lounge!",
-    "paragraph2" : "Siamo due amici che, dopo anni di duro lavoro, sacrifici e sogni, abbiamo finalmente deciso di realizzare il nostro sogno aprendo un bar che offrisse esperienze uniche e indimenticabili."
+    "paragraph2" : "Siamo due amici che, dopo anni di duro lavoro, sacrifici e sogni, hanno finalmente deciso di realizzare il nostro sogno aprendo un bar che offrisse esperienze uniche e indimenticabili."
   },
   {
     "id" : "1",
     "alt" : "cocktail pic",
     "src": "/assets/cocktail1.webp",
-    "paragraph1" : "I nostri cocktail sono studiati attentamente, utilizzando solo drink è una gusti più raffinati.",
+    "paragraph1" : "I nostri cocktail sono studiati attentamente, utilizzando solo drink e gusti raffinati.",
     "paragraph2": "Dalle classiche ricette dei cocktail tradizionali alle nostre creazioni inedite, le nostre bevande sono pensate per sorprendere e deliziare ogni vostro palato."
   },
   {
@@ -18,7 +18,7 @@
     "alt" : "champagne pouring pic",
     "src": "/assets/champagne.webp",
     "paragraph1" : "Ma la nostra offerta non si limita solo ai cocktail. Siamo anche appassionati di champagne e vini pregiati.",
-    "paragraph2": "Abbiamo selezionato una lista di champagne rinomati e vini provenienti da diverse regioni del mondo, per offrire una vasta scelta di etichette che si abbinino alla perfezione ai nostri piatti e alle vostre preferenze."
+    "paragraph2": "Abbiamo selezionato una lista di champagne rinomati e vini provenienti da diverse regioni del mondo, per offrire una vasta scelta di etichette che si abbinino alla perfezione ai nostri piatti ed alle vostre preferenze."
   },
   {
     "id" : "3",
