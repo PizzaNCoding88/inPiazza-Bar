@@ -16,41 +16,38 @@ const Storia = () => {
         transition={{ duration: 1.8, ease: "easeOut" }}
       >
         <h1 className="header_storia">Chi Siamo</h1>
-        {data.map((data) => {
-          return (
-            <>
-              <section
-                className={`${data.id % 2 === 0 ? "bg-form" : "bg-primary"}`}
+        {data.map((data, i) => (
+          <section
+            key={data.id}
+            className={`${data.id % 2 === 0 ? "bg-form" : "bg-primary"}`}
+          >
+            <div
+              className={`storia_container text-black ${
+                data.id % 2 === 0 ? "" : "text-white"
+              }`}
+            >
+              <div
+                className={`storia_container_card ${
+                  data.id % 2 === 0 ? "" : "lg:!flex-row-reverse"
+                }`}
               >
-                <div
-                  className={`storia_container text-black ${
-                    data.id % 2 === 0 ? "" : "text-white"
-                  }`}
-                >
-                  <div
-                    className={`storia_container_card ${
-                      data.id % 2 === 0 ? "" : "lg:!flex-row-reverse"
-                    }`}
-                  >
-                    <div className="about-us__img-container">
-                      <Image
-                        src={data.src}
-                        alt={data.alt}
-                        objectFit="cover"
-                        fill="true"
-                      />
-                    </div>
-                    <div>
-                      <p className="about-us_paragraph">{data.paragraph1}</p>
-                      <br></br>
-                      <p className="about-us_paragraph1">{data.paragraph2}</p>
-                    </div>
-                  </div>
+                <div className="about-us__img-container">
+                  <Image
+                    src={data.src}
+                    alt={data.alt}
+                    objectFit="cover"
+                    fill="true"
+                  />
                 </div>
-              </section>
-            </>
-          );
-        })}
+                <div>
+                  <p className="about-us_paragraph">{data.paragraph1}</p>
+                  <br></br>
+                  <p className="about-us_paragraph1">{data.paragraph2}</p>
+                </div>
+              </div>
+            </div>
+          </section>
+        ))}
         <section className="bg-form">
           <div className="storia_container text-black">
             <p className="text-xl xl:text-3xl">

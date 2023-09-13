@@ -93,7 +93,7 @@
   }
 
   &_form {
-    @apply bg-form rounded-tr-lg rounded-tl-lg md:rounded-tr-none md:rounded-bl-lg aspect-square !w-full md:!max-w-[50%] pt-[5%] px-10;
+    @apply bg-form rounded-tr-lg rounded-tl-lg md:rounded-tr-none md:rounded-bl-lg aspect-square !w-full md:!max-w-[50%] pt-[5%] px-10 md:max-h-full;
 
     &_content {
       @apply flex flex-col justify-between h-full;
