@@ -16,7 +16,7 @@ const Logo = () => {
         <Link href="/" className=" cursor-pointer">
           <Image
             src={logo}
-            alt="logo"
+            alt="logo image"
             className="header_wrapper_logo_image"
           ></Image>
         </Link>

@@ -34,6 +34,7 @@ const ContactForm = () => {
               placeholder="Nome"
               name="name"
               required
+              autoComplete="on"
             ></input>
           </label>
           <label htmlFor="email" aria-label="email">
@@ -44,6 +45,7 @@ const ContactForm = () => {
               placeholder="Email"
               name="email"
               required
+              autoComplete="on"
             ></input>
           </label>
           <label htmlFor="textarea" aria-label="textaread">

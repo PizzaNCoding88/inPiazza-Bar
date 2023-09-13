@@ -1,4 +1,4 @@
-import "./globals.css";
+import "../app/globals.css";
 import { Antic_Slab, Ms_Madi, Neonderthaw } from "next/font/google";
 import localFont from "next/font/local";
 import Header from "./components/header/Header";
@@ -36,6 +36,7 @@ export default function RootLayout({ children }) {
   return (
     <html lang="en">
       <body
+        suppressHydrationWarning={true}
         className={`${antic.variable} ${madi.variable} ${neon.variable} ${americana.variable}`}
       >
         <Header />
