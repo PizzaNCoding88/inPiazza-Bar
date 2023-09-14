@@ -22,13 +22,11 @@ const Navigation = () => {
   return (
     <>
       <ul className="navbar__desktop-ul">
-        {listItems.map((li) => {
-          return (
-            <Link key={li.id} href={li.href}>
-              <li>{li.name}</li>
-            </Link>
-          );
-        })}
+        {listItems.map((li) => (
+          <Link key={li.id} href={li.href}>
+            <li>{li.name}</li>
+          </Link>
+        ))}
       </ul>
     </>
   );
