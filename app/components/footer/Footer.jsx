@@ -50,7 +50,9 @@ const Footer = () => {
               </div>
               <div className="flex justify-center">
                 <Image alt="location" src={phoneIco} className="h-6 w-6 mr-1" />
-                <p className="footer_address-phone">+39 089 935 5030</p>
+                <Link href="tel:+39 089 935 5030" className="m-0 p-0">
+                  <p className="footer_address-phone">+39 089 935 5030</p>
+                </Link>
               </div>
             </div>
             <div className="footer_content_policy-copyright">
