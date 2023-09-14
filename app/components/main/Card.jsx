@@ -2,42 +2,13 @@
 
 import React from "react";
 import Image from "next/image";
-import radioCity from "../../../public/assets/radiocity_1.webp";
-import cocktails from "../../../public/assets/cocktail1.webp";
-import aperitivo from "../../../public/assets/aperitivo1.webp";
-import esterno from "../../../public/assets/esterno1.webp";
 import { motion } from "framer-motion";
+import data from "../../data/cardData";
 
 const Card = () => {
-  const card = [
-    {
-      link: radioCity,
-      title: "Eventi",
-      subtitle: "Contattaci per qualsiasi evento",
-      alt: "Radio City",
-    },
-    {
-      link: cocktails,
-      title: "Cocktails",
-      subtitle: "Un'estensiva lista cocktails",
-      alt: "cocktails",
-    },
-    {
-      link: aperitivo,
-      title: "Aperitivi",
-      subtitle: "Vieni a provare i nostri aperitivi",
-      alt: "paritivi",
-    },
-    {
-      link: esterno,
-      title: "Divertimento",
-      subtitle: "Serate di puro divertimento con i nostri eventi",
-      alt: "divertimento",
-    },
-  ];
   return (
     <>
-      {card.map((c, i) => (
+      {data.map((data, i) => (
         <div
           key={i}
           className={`images-section_card-container ${
@@ -52,8 +23,8 @@ const Card = () => {
             viewport={{ once: true }}
           >
             <Image
-              alt={c.alt}
-              src={c.link}
+              alt={data.alt}
+              src={data.link}
               style={{ objectFit: "cover" }}
               fill={true}
               sizes="100%"
@@ -70,8 +41,8 @@ const Card = () => {
             transition={{ duration: 1, ease: "easeOut" }}
             viewport={{ once: true }}
           >
-            <h2 className="images-section_title">{c.title}</h2>
-            <p className="images-section_description">{c.subtitle}</p>
+            <h2 className="images-section_title">{data.title}</h2>
+            <p className="images-section_description">{data.subtitle}</p>
           </motion.div>
         </div>
       ))}

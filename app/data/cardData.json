@@ -1,0 +1,26 @@
+[
+    {
+        "link": "/assets/radiocity_1.webp",
+        "title": "Eventi",
+        "subtitle": "Contattaci per qualsiasi evento",
+        "alt": "Radio City"
+      },
+      {
+        "link": "/assets/cocktail1.webp",
+        "title": "Cocktails",
+        "subtitle": "Un'estensiva lista cocktails",
+        "alt": "cocktails"
+      },
+      {
+        "link": "/assets/aperitivo1.webp",
+        "title": "Aperitivi",
+        "subtitle": "Vieni a provare i nostri aperitivi",
+        "alt": "aperitivi"
+      },
+      {
+        "link": "/assets/esterno1.webp",
+        "title": "Divertimento",
+        "subtitle": "Serate di puro divertimento con i nostri eventi",
+        "alt": "divertimento"
+      }
+]
