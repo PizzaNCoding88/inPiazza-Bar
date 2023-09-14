@@ -28,8 +28,8 @@ const americana = localFont({
 });
 
 export const metadata = {
-  title: "inPiazza - Bar",
-  description: "inPiazza Bar",
+  title: "inPiazza Bar",
+  description: "Benvenuto ad inPiazza Aperichic Bar di Salerno",
 };
 
 export default function RootLayout({ children }) {

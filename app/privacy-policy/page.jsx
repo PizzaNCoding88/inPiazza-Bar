@@ -4,6 +4,10 @@ import React from "react";
 import Policy from "../components/ppolicy/Policy";
 import { motion } from "framer-motion";
 
+export const metadata = {
+  title: "inPiazza Bar - Privacy Policy",
+  description: "Privacy policy",
+};
 const page = () => {
   return (
     <>

@@ -50,7 +50,7 @@ const Storia = () => {
         ))}
         <section className="bg-form">
           <div className="storia_container text-black">
-            <p className="text-xl xl:text-3xl">
+            <p className="text-base lg:text-xl xl:text-3xl">
               Vi aspettiamo nel nostro bar, champagneria e cocktail lounge per
               farvi vivere esperienze uniche e indimenticabili. I nostri drink,
               la nostra selezione di champagne e la nostra ospitalità vi
